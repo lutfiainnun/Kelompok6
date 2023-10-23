@@ -25,7 +25,7 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada Website. Menjelask
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek ini kami menganalisis kebutuhan suatu Sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pembuatan laporan mengenai inventory laundry. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data inventory laundry. Sehingga memudahkan admin dalam menginputkan data barang persediaan serta mengecek stock barang yang tersedia maupun yang berkurang. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat pencatatan persediaan barang, Pencatatan Barang yang Digunakan, pencatatan persediaan yang dikeluarkan, laporan pemasukan barang serta pengeluaran stok barang. Berikut akan kami jelaskan sistem software kami, staf fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek ini kami menganalisis kebutuhan suatu Sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pembuatan laporan mengenai inventory laundry. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data inventory laundry. Sehingga memudahkan staff dalam menginputkan data barang persediaan serta mengecek stock barang yang tersedia maupun yang berkurang. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat pencatatan persediaan barang, pencatatan barang yang digunakan, pencatatan persediaan yang dikeluarkan, laporan pemasukan barang serta pengeluaran stok barang. Berikut akan kami jelaskan sistem software kami, staff fungsi utama yaitu :
 
    - Input Pencatatan Persediaan yang Dibeli
    - Input Pencatatan Barang yang Digunakan
@@ -33,7 +33,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
    - Input Pencatatan Permintaan Barang
    - Laporan pemasukan dan pengeluaran stok barang
    
-   Berikut ini fungsi staf dalam bentuk tabel:
+   Berikut ini fungsi staff dalam bentuk tabel:
    
    - View Pencatatan Persediaan yang Dibeli
    - View Pencatatan Barang yang Digunakan
@@ -43,13 +43,13 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 
 2.1   Perspektif produk
 ----------
-Inventory Laundry adalah perangkat lunak atau platform yang dirancang untuk membantu bisnis laundry mengelola persediaan mereka. Terdapat 1 jenis yaitu staf. Pengolahan data di kelola oleh staf dan pihak sekolah dapat melihat grafik dan laporan pada website.
+Inventory Laundry adalah perangkat lunak atau platform yang dirancang untuk membantu bisnis laundry mengelola persediaan mereka. Terdapat 1 jenis yaitu staff. Pengolahan data di kelola oleh staff sehingga dapat melihat tabel dan laporan pada website.
 
-Pada sistem inventory laundry ini akan menampilkan tabel persediaan barang yang sudah diinputkan oleh staf.
+Pada sistem inventory laundry ini akan menampilkan tabel persediaan barang yang sudah diinputkan oleh staff.
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://raw.githubusercontent.com/lutfiainnun/Kelompok6/main/Image%20SRS/antarmuka%20sistem1.png)
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/antarmuka%20sistem1.png)
 
-Sistem website Inventory Laundry SMKN 1 Pekanbaru memiliki 1 user yaitu staf.
+Sistem website Inventory Laundry SMKN 1 Pekanbaru memiliki 1 user yaitu staff.
 
