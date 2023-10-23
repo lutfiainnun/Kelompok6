@@ -33,7 +33,8 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
    - Input Pencatatan Permintaan Barang
    - Laporan pemasukan dan pengeluaran stok barang
    
-   Berikut ini fungsi admin dalam bentuk grafik :
+   Berikut ini fungsi admin dalam bentuk tabel:
+   
    - View Pencatatan Persediaan yang Dibeli
    - View Pencatatan Barang yang Digunakan
    - View Pencatatan Persediaan yang Dikeluarkan
