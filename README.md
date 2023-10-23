@@ -48,3 +48,4 @@ Inventory Laundry adalah perangkat lunak atau platform yang dirancang untuk memb
 Pada sistem inventory laundry ini akan menampilkan grafik persediaan barang yang sudah diinputkan oleh admin.
 
 **2.1.1 Antarmuka sistem**
+
