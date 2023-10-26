@@ -55,7 +55,7 @@ Sistem website Inventory Laundry SMKN 1 Pekanbaru memiliki 1 user yaitu staff.
 
 **2.1.2 Antarmuka pengguna**
 
-   - **Mockup Admin ( Website )**
+   - **Mockup Staff ( Website )**
 
 |  |  |
 |--|--|
