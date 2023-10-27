@@ -25,7 +25,7 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada Website. Menjelask
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek ini kami menganalisis kebutuhan suatu Sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pembuatan laporan mengenai inventory laundry. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data inventory laundry. Sehingga memudahkan staff dalam menginputkan data barang persediaan serta mengecek stock barang yang tersedia maupun yang berkurang. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat pencatatan persediaan barang, pencatatan barang yang digunakan, pencatatan persediaan yang dikeluarkan, laporan pemasukan barang serta pengeluaran stok barang. Berikut akan kami jelaskan sistem software kami, staff fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus Proyek ini kami menganalisis kebutuhan suatu Sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pembuatan laporan mengenai inventory laundry. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data inventory laundry. Sehingga memudahkan staff dalam menginputkan data barang persediaan serta mengecek stock barang yang tersedia maupun yang berkurang. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat pencatatan persediaan barang, pencatatan barang yang digunakan, pencatatan persediaan yang dikeluarkan, laporan pemasukan barang serta pengeluaran stok barang. Berikut akan kami jelaskan sistem software kami, staff fungsi utama yaitu :
 
    - Input Pencatatan Persediaan yang Dibeli
    - Input Pencatatan Barang yang Digunakan
@@ -66,3 +66,44 @@ Sistem website Inventory Laundry SMKN 1 Pekanbaru memiliki 1 user yaitu staff.
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Angka%20Kematian.png) Pada Halaman kematian dapat menginputkan data kematian penduduk| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Grafik%20Angka%20kelahiran.png) Pada Halaman grafik kelahiran dapat melihat data angka kelahiran|
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Grafik%20Angka%20kematian.png) Pada Halaman grafik kematian dapat melihat data angka kematian| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Laporan.png) Pada Halaman laporan dapat melihat dan mendownload laporan penduduk|
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Lupa%20Password.png) Pada halaman lupa password dapat mengganti password terlebih dahulu memasukkan username dan password sebelumnya| |
+
+**2.1.3 Antarmuka perangkat keras**
+
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras%202.png)
+
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Inventory Laundry SMKN 1 Pekanbaru antara lain :
+
+1. PC / Laptop
+Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
+
+**2.1.4 Antarmuka perangkat lunak**
+
+Tidak ada
+
+**2.1.5 Antarmuka Komunikasi**
+
+Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Inventory Laundry SMKN 1 Pekanbaru antara lain :
+1. Kabel Lan UTP RJ45
+2. Modem
+3. Wifi
+
+**2.1.6 Batasan memori**
+
+Tidak ada
+
+**2.1.7 Operasi-operasi**
+
+| Operasi | Fungsi |
+| ------ | ------ |
+| Login | Digunakan untuk mengakses website |
+| Input Data | Digunakan untuk memasukkan data-data |
+| Kembali | Digunakan untuk kembali ke halaman sebelumnya |
+| Hapus | Digunakan untuk menghapus data |
+| Edit | Digunakan untuk mengubah data |
+| View | Digunakan untuk menampilkan data |
+| Simpan | Digunakan untuk menyimpan data |
+| Cetak | Digunakan untuk mencetak laporan |
+
+**2.1.8 Kebutuhan adaptasi**
+
+Tidak ada
