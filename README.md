@@ -106,4 +106,4 @@ Tidak ada
 
 **2.1.8 Kebutuhan adaptasi**
 
-Tidak ada
+Tidak
