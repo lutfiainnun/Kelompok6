@@ -148,7 +148,7 @@ Xref: Bagian 3.2.2, View laporan barang
 Use Case: Login
 
 Diagram :
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20login%20staff.png)
 
 Deskripsi Singkat
 Staff melakukan login dengan memasukan username password.
@@ -159,3 +159,107 @@ Deskripsi Langkah-langkah
 4. Bila gagal sistem akan menampilkan peringatan
 
 Xref: Bagian 3.2.3, Login Staff
+
+**2.2.4 Staff input data barang**
+
+Use Case: Input data barang
+
+Diagram:
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20data%20barang%20staff.png)
+      
+Deskripsi Singkat
+Staff melakukan input data barang yang biasanya digunakan untuk proses laundry dan sistem menyimpan data pada database.
+Deskripsi Langkah-langkah
+1. Staff melakukan input data barang.
+2. Staff mengklik tombol simpan.
+3. Sistem menyimpan data kependudukan.
+4. Bila data sudah ada sistem akan menampilkan peringatan
+
+Xref: Bagian 3.2.4, Input data barang
+
+**2.2.5 Staff input data barang masuk**
+
+Use Case: Input data barang masuk
+
+Diagram:
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20barang%20masuk%20staff.png)
+      
+Deskripsi Singkat
+Staff melakukan input data barang yang masuk untuk tambahan stock barang dan sistem menyimpan data pada database.
+Deskripsi Langkah-langkah
+1. Staff melakukan input data barang masuk.
+2. Staff mengklik tombol simpan.
+3. Sistem menyimpan data kependudukan.
+4. Bila data sudah ada sistem akan menampilkan peringatan
+
+Xref: Bagian 3.2.5, Input data barang masuk
+
+**2.2.6 Staff input data barang keluar**
+
+Use Case: Input data barang keluar
+
+Diagram:
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20barang%20keluar%20staff.png)
+      
+Deskripsi Singkat
+Staff melakukan input data barang keluar atau barang yang telah digunakan untuk proses laundry dan sistem menyimpan data pada database.
+Deskripsi Langkah-langkah
+1. Staff melakukan input data barang keluar.
+2. Staff mengklik tombol simpan.
+3. Sistem menyimpan data kependudukan.
+4. Bila data sudah ada sistem akan menampilkan peringatan
+
+Xref: Bagian 3.2.6, Input data barang keluar
+
+**2.2.7 Staff input data permintaan barang**
+
+Use Case: Input data permintaan barang
+
+Diagram:
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20permintaan%20barang%20staff.png)
+      
+Deskripsi Singkat
+Staff melakukan input data permintaan barang dan sistem menyimpan data pada database.
+Deskripsi Langkah-langkah
+1. Staff melakukan input data permintaan barang.
+2. Staff mengklik tombol simpan.
+3. Sistem menyimpan data kependudukan.
+4. Bila data sudah ada sistem akan menampilkan peringatan
+
+Xref: Bagian 3.2.7, Input data permintaan barang
+
+
+**2.2.8 Staff melihat data barang**
+
+Use Case: View data barang
+
+Diagram:
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20lihat%20data%20barang%20staff.png)
+
+Deskripsi Singkat
+Staff dapat melihat data barang setelah di inputkan.
+Deskripsi Langkah-langkah
+1. Sistem akan menampilkan data barang Laundry SMKN 1 Pekanbaru.
+2. Staff melihat data dan dapat mengedit atau menghapusnya.
+3. Sistem menampilkan edit data barang
+4. Staff  mengedit data barang yang baru atau yang sudah ada
+5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
+
+Xref: Bagian 3.2.8, View data barang
+   
+**2.2.9 Generate Laporan**
+
+Use Case: Laporan
+
+Diagram:
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20laporan%20staff.png)
+
+Deskripsi Singkat
+Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
+Deskripsi Langkah-langkah
+1. Sistem menampilkan laporan kependudukan
+2. Staff memilih combobox tersebut dan klik tombol cetak
+3. Sistem akan menampilkan hasil laporan.
+4. Staff mencetak laporan 
+
+Xref: Bagian 3.2.9, Cetak Laporan
