@@ -300,3 +300,120 @@ Salah satu cara mengakses aplikasi ini yaitu login melalui website ini dengan me
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
+
+**3.2.1 Kepala launndry Login**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.1, Login Kepala laundry |
+| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
+| Precondition | Halaman login |
+| Basic Path | 1. Kepala laundry mengisi form login dengan username dan password <br> 2.Kepala laundry mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Alternative | Tidak ada |
+| Post Condition | Kepala laundry dapat login dan mengakses website Inventory Laundry SMKN 1 Pekanbaru |
+| Exception Push | Username dan password salah |
+      
+**3.2.2 Kepala launndry melihat laporan barang**
+
+|  |  |
+|--|--|
+| Nama Fungsi | View laporan barang |
+| Xref | Bagian 2.2.2, View laporan barang |
+| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
+| Precondition | Membuka halaman laporan |
+| Basic Path | 1. Kepala laundry mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala laundry memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
+| Alternative | Tidak ada |
+| Post Condition | Kepala laundry melihat laporan barang |
+| Exception Push | Tidak ada koneksi |
+   
+**3.2.3 Staff login**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.3, Login staff |
+| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
+| Precondition | Halaman login staff |
+| Basic Path | 1. Staff melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
+| Alternative | Tidak ada |
+| Post Condition | Staff berhasil login dan mengakses website Inventory Laundry SMKN 1 Pekanbaru |
+| Exception Push | Username dan password salah |
+   
+**3.2.4 Admin input data barang**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Input data barang |
+| Xref | Bagian 2.2.4, Input data barang |
+| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
+| Precondition | Halaman utama staff |
+| Basic Path | 1. Staff melakukan input data barang yang biasanya digunakan untuk proses laundry <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Alternative | Tidak ada |
+| Post Condition | Halaman form input data barang |
+| Exception Push | Tidak ada koneksi |
+
+**3.2.5 Admin input data barang masuk**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Input data barang masuk |
+| Xref | Bagian 2.2.5, Input data barang masuk |
+| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
+| Precondition | Halaman utama staff |
+| Basic Path | 1. Staff melakukan input data barang yang masuk untuk tambahan stock barang <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
+| Alternative | Tidak ada |
+| Post Condition | Halaman form input data barang masuk |
+| Exception Push | Tidak ada koneksi |
+
+**3.2.6 Admin input data barang keluar**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Input data barang keluar |
+| Xref | Bagian 2.2.6, Input data barang keluar |
+| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
+| Precondition | Halaman utama staff |
+| Basic Path | 1. Staff melakukan inpu tdata barang keluar atau barang yang telah digunakan untuk proses laundry <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
+| Alternative | Tidak ada |
+| Post Condition | Halaman form input data barang keluar |
+| Exception Push | Tidak ada koneksi |
+
+**3.2.7 Admin input data permintaan barang**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Input data permintaan barang |
+| Xref | Bagian 2.2.7, Input data permintaan barang |
+| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
+| Precondition | Halaman utama staff |
+| Basic Path | 1. Staff melakukan input data permintaan barang <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
+| Alternative | Tidak ada |
+| Post Condition | Halaman form input data barang |
+| Exception Push | Tidak ada koneksi |
+   
+**3.2.8 Admin melihat data kependudukan**
+
+|  |  |
+|--|--|
+| Nama Fungsi | View data kependudukan |
+| Xref | Bagian 2.2.8, View data kependudukan |
+| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
+| Precondition | Halaman form input data |
+| Basic Path | 1. Sistem akan menampilkan data barang Laundry SMKN 1 Pekanbaru. <br> 2. Staff melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data kependudukan <br>4. Admin  mengedit data barang yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
+| Alternative | Tidak ada |
+| Post Condition | Halaman data kependudukan |
+| Exception Push | Tidak ada koneksi |
+   
+**3.2.9 Cetak Laporan**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Laporan |
+| Xref | Bagian 2.2.9, Cetak Laporan |
+| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
+| Precondition | halaman utama staff |
+| Basic Path | 1. Staff mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Staff memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Staff mencetak laporan  |
+| Alternative | Tidak ada |
+| Post Condition | Halaman Laporan |
+| Exception Push | Tidak ada koneksi, data belum diinput |
