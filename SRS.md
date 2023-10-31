@@ -126,3 +126,36 @@ Deskripsi langkah-langkah
 4. Bila gagal sistem akan menampilkan peringatan
 
 Xref: Bagian 3.2.1, Login Kepala Laundry
+
+**2.2.2 Kepala laundry melihat laporan barang**
+
+Use Case: View laporan barang
+
+Diagram: 
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
+
+Deskripsi Singkat
+Kepala laundry dapat melihat laporan barang secara bulanan di Laundry SMKN 1 Pekanbaru.
+Deskripsi Langkah-langkah
+1. Kepala laundry mengklik navbar laporan
+2. Kepala laundry memilih combobox tersebut dan klik tombol cetak laporan
+3. Sistem akan menampilkan hasil laporan.
+
+Xref: Bagian 3.2.2, View laporan barang
+
+**2.2.3 Staff login**
+
+Use Case: Login
+
+Diagram :
+![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
+
+Deskripsi Singkat
+Staff melakukan login dengan memasukan username password.
+Deskripsi Langkah-langkah
+1. Staff melakukan login dengan username dan password
+2. Sistem melakukan validasi login
+3. Bila sukses sistem akan mengarahkan ke halaman beranda
+4. Bila gagal sistem akan menampilkan peringatan
+
+Xref: Bagian 3.2.3, Login Staff
