@@ -110,7 +110,7 @@ Tidak ada
 ----------
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case.png)
    
-**2.2.1 Kepala Desa Login**
+**2.2.1 Kepala Laundry Login**
 
 Use Case: Login
 
