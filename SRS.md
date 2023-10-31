@@ -263,3 +263,40 @@ Deskripsi Langkah-langkah
 4. Staff mencetak laporan 
 
 Xref: Bagian 3.2.9, Cetak Laporan
+
+2.3   Spesifikasi Kebutuhan non-fungsional
+----------
+- Tabel Kebutuhan Non-Fungsional 
+
+   | No | Deskripsi |
+   | ------ | ------ |
+   | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
+   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Staff dan kepala laundry ) 
+ 
+2.4   Karakteristik pengguna
+----------
+Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem tanpa harus dihubungkan dengan hak akses atau level autentikasi.
+
+2.5   Batasan-batasan
+----------
+- Perangkat lunak web hanya dijalankan di windows (7,8,10). 
+- Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
+
+2.6   Asumsi-asumsi
+----------
+Maksimal penginputan id atau memasukkan kode pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan "Anda telah melebihi batas maksimum".
+
+2.7   Kebutuhan Penyeimbang
+----------
+Tidak ada
+
+
+BAB III Requirement specification
+----------
+3.1 Persyaratan Antarmuka Eksternal
+----------
+Salah satu cara mengakses aplikasi ini yaitu login melalui website ini dengan mencantumkan username kemudian sistem akan mencocokkan username staff dan kepala laundry. Setelah login berhasil kepala laundry dapat melihat laporan data barang Laundry SMKN 1 Pekanbaru.
+      
+3.2 Functional Requirement
+----------
+Logika Struktur terdapat pada bagian 3.3.1
