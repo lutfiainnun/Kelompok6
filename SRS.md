@@ -41,7 +41,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 
 2.1   Perspektif produk
 ----------
-Inventory Laundry adalah perangkat lunak atau platform yang dirancang untuk membantu bisnis laundry mengelola persediaan mereka. Terdapat 1 jenis yaitu staff. Pengolahan data di kelola oleh staff sehingga dapat melihat tabel dan laporan pada website.
+Inventory Laundry adalah perangkat lunak atau platform yang dirancang untuk membantu bisnis laundry mengelola persediaan mereka. Terdapat 2 jenis yaitu staff dan kepala laundry. Pengolahan data di kelola oleh staff dan kepala laundry hanya melihat laporan pada website.
 
 Pada sistem inventory laundry ini akan menampilkan tabel persediaan barang yang sudah diinputkan oleh staff.
 
@@ -49,7 +49,7 @@ Pada sistem inventory laundry ini akan menampilkan tabel persediaan barang yang 
 
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20sistem.png)
 
-Sistem website Inventory Laundry SMKN 1 Pekanbaru memiliki 1 user yaitu staff.
+Sistem website Inventory Laundry SMKN 1 Pekanbaru memiliki 2 user yaitu staff dan kepala laundry.
 
 **2.1.2 Antarmuka pengguna**
 
@@ -104,4 +104,4 @@ Tidak ada
 
 **2.1.8 Kebutuhan adaptasi**
 
-Tidak
+Tidak ada
