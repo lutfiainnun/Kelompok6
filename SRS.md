@@ -47,7 +47,7 @@ Pada sistem inventory laundry ini akan menampilkan tabel persediaan barang yang 
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20sistem1.png)
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20sistem.png)
 
 Sistem website Inventory Laundry SMKN 1 Pekanbaru memiliki 1 user yaitu staff.
 
