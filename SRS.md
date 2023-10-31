@@ -105,3 +105,24 @@ Tidak ada
 **2.1.8 Kebutuhan adaptasi**
 
 Tidak ada
+
+2.2 Spesifikasi Kebutuhan fungsional
+----------
+![]()
+   
+**2.2.1 Kepala Desa Login**
+
+Use Case: Login
+
+Diagram : 
+![]()
+
+Deskripsi Singkat
+Kepala laundry melukan login terlebih dahulu sebelum masuk ke tampilan home.
+Deskripsi langkah-langkah
+1. Kepala laundry melakukan login dengan username dan password
+2. Sistem melakukan validasi login
+3. Bila sukses sistem akan mengarahkan ke halaman beranda
+4. Bila gagal sistem akan menampilkan peringatan
+
+Xref: Bagian 3.2.1, Login Kepala Laundry
