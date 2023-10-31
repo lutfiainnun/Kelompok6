@@ -132,7 +132,7 @@ Xref: Bagian 3.2.1, Login Kepala Laundry
 Use Case: View laporan barang
 
 Diagram: 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20laporan%20keplau.png)
 
 Deskripsi Singkat
 Kepala laundry dapat melihat laporan barang secara bulanan di Laundry SMKN 1 Pekanbaru.
