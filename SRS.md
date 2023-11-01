@@ -123,7 +123,7 @@ Staff melakukan login dengan memasukan username password.
 Deskripsi Langkah-langkah
 1. Staff melakukan login dengan username dan password
 2. Sistem melakukan validasi login
-3. Bila sukses sistem akan mengarahkan ke halaman beranda
+3. Bila sukses sistem akan mengarahkan ke halaman data barang
 4. Bila gagal sistem akan menampilkan peringatan
 
 Xref: Bagian 3.2.1, Login Staff
@@ -286,7 +286,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Nama Fungsi | Input data barang |
 | Xref | Bagian 2.2.4, Input data barang |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
-| Precondition | Halaman utama staff |
+| Precondition | Halaman data barang |
 | Basic Path | 1. Staff melakukan input data barang yang biasanya digunakan untuk proses laundry dan jumlahmya <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data barang |
@@ -299,7 +299,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Nama Fungsi | Input data barang masuk |
 | Xref | Bagian 2.2.5, Input data barang masuk |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
-| Precondition | Halaman utama staff |
+| Precondition | Halaman data barang |
 | Basic Path | 1. Staff melakukan input data barang yang masuk untuk tambahan stock barang dan jumlahmya <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data barang masuk |
@@ -312,7 +312,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Nama Fungsi | Input data barang keluar |
 | Xref | Bagian 2.2.6, Input data barang keluar |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
-| Precondition | Halaman utama staff |
+| Precondition | Halaman data barang |
 | Basic Path | 1. Staff melakukan inpu tdata barang keluar atau barang yang telah digunakan untuk proses laundry dan jumlahmya <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data barang keluar |
@@ -325,7 +325,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Nama Fungsi | Input data permintaan barang |
 | Xref | Bagian 2.2.7, Input data permintaan barang |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
-| Precondition | Halaman utama staff |
+| Precondition | Halaman data barang |
 | Basic Path | 1. Staff melakukan input data permintaan barang dan jumlahmya <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data barang |
@@ -351,7 +351,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Nama Fungsi | Laporan |
 | Xref | Bagian 2.2.9, Cetak Laporan |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
-| Precondition | halaman utama staff |
+| Precondition | halaman data barang |
 | Basic Path | 1. Staff mengklik tombol laporan <br> 2. Sistem menampilkan laporan barang <br> 3. Staff memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Staff mencetak laporan  |
 | Alternative | Tidak ada |
 | Post Condition | Halaman Laporan |
