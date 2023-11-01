@@ -301,7 +301,7 @@ Salah satu cara mengakses aplikasi ini yaitu login melalui website ini dengan me
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
 
-**3.2.1 Kepala launndry Login**
+**3.2.1 Kepala laundry Login**
 
 |  |  |
 |--|--|
@@ -314,7 +314,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Kepala laundry dapat login dan mengakses website Inventory Laundry SMKN 1 Pekanbaru |
 | Exception Push | Username dan password salah |
       
-**3.2.2 Kepala launndry melihat laporan barang**
+**3.2.2 Kepala laundry melihat laporan barang**
 
 |  |  |
 |--|--|
@@ -340,7 +340,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Staff berhasil login dan mengakses website Inventory Laundry SMKN 1 Pekanbaru |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Admin input data barang**
+**3.2.4 Staff input data barang**
 
 |  |  |
 |--|--|
@@ -353,7 +353,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data barang |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.5 Admin input data barang masuk**
+**3.2.5 Staff input data barang masuk**
 
 |  |  |
 |--|--|
@@ -366,7 +366,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data barang masuk |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.6 Admin input data barang keluar**
+**3.2.6 Staff input data barang keluar**
 
 |  |  |
 |--|--|
@@ -379,7 +379,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data barang keluar |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.7 Admin input data permintaan barang**
+**3.2.7 Staff input data permintaan barang**
 
 |  |  |
 |--|--|
@@ -392,17 +392,17 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data barang |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.8 Admin melihat data kependudukan**
+**3.2.8 Staff melihat data barang**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View data kependudukan |
-| Xref | Bagian 2.2.8, View data kependudukan |
+| Nama Fungsi | View data barang |
+| Xref | Bagian 2.2.8, View data barang |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
 | Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan data barang Laundry SMKN 1 Pekanbaru. <br> 2. Staff melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data kependudukan <br>4. Admin  mengedit data barang yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
+| Basic Path | 1. Sistem akan menampilkan data barang Laundry SMKN 1 Pekanbaru. <br> 2. Staff melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data barang <br>4. Staff  mengedit data barang yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
 | Alternative | Tidak ada |
-| Post Condition | Halaman data kependudukan |
+| Post Condition | Halaman data barang |
 | Exception Push | Tidak ada koneksi |
    
 **3.2.9 Cetak Laporan**
