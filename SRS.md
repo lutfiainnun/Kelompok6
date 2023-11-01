@@ -429,7 +429,7 @@ Struktur data logika pada sistem website Inventory Laundry SMKN 1 Pekanbaru terd
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_user| int | Nomer auto increment Id_user|
+| Id_kepala_laundry| int | Nomer auto increment Id_kepala_laundry|
 | Username | varchar | berisikan username untuk akses kepala laundry |
 | Password | varchar | berisikan password untuk login kepala laundry |
 
@@ -455,4 +455,6 @@ Struktur data logika pada sistem website Inventory Laundry SMKN 1 Pekanbaru terd
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_laporan| int | Nomer auto increment Id_laporan|
-| laporan | varchar | berisi laporan barang |
+| Nama | varchar | Nama Laporan|
+| Jumlah | varchar | Jumlah laporan|
+| Tanggal | date | Tanggal laporan dibuat |
