@@ -26,18 +26,16 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada Website. Menjelask
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus Proyek ini kami menganalisis kebutuhan suatu Sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pembuatan laporan mengenai inventory laundry. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data inventory laundry. Sehingga memudahkan staff dalam menginputkan data barang persediaan serta mengecek stock barang yang tersedia maupun yang berkurang. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat pencatatan barang masuk, pencatatan barang keluar, pencatatan permintaan, laporan pemasukan barang serta pengeluaran barang. Berikut akan kami jelaskan sistem software kami, staff laundry fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus Proyek ini kami menganalisis kebutuhan suatu Sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pembuatan laporan mengenai inventory laundry. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data inventory laundry. Sehingga memudahkan staff dalam menginputkan data barang persediaan serta mengecek stock barang yang tersedia maupun yang berkurang. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat pencatatan barang masuk, pencatatan barang keluar, laporan pemasukan barang serta pengeluaran barang. Berikut akan kami jelaskan sistem software kami, staff laundry fungsi utama yaitu :
 
    - Input Pencatatan Barang Masuk
    - Input Pencatatan Barang keluar
-   - Input Pencatatan Permintaan Barang
    - Laporan pemasukan dan pengeluaran stok barang
    
    Berikut ini fungsi staff laundry dalam bentuk tabel:
    
    - View Pencatatan Barang Masuk
    - View Pencatatan Barang keluar
-   - View Pencatatan Permintaan Barang
    - View Laporan pemasukan dan pengeluaran stok barang
 
 2.1   Perspektif produk
@@ -177,24 +175,7 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.4, Input data barang keluar
 
-**2.2.5 Staff Input Data Permintaan Barang**
-
-Use Case: Input data permintaan barang
-
-Diagram:
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20permintaan%20barang%20staff.png)
-      
-Deskripsi Singkat
-Staff melakukan input data permintaan barang dan sistem menyimpan data pada database.
-Deskripsi Langkah-langkah
-1. Staff melakukan input data permintaan barang dan jumlahmya.
-2. Staff mengklik tombol simpan.
-3. Sistem menyimpan data permintaan barang.
-
-Xref: Bagian 3.2.5, Input data permintaan barang
-
-
-**2.2.6 Staff Melihat Data Barang**
+**2.2.5 Staff Melihat Data Barang**
 
 Use Case: View data barang
 
@@ -210,9 +191,9 @@ Deskripsi Langkah-langkah
 4. Staff  mengedit data barang yang baru atau yang sudah ada
 5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
 
-Xref: Bagian 3.2.6, View data barang
+Xref: Bagian 3.2.5, View data barang
    
-**2.2.7 Generate Laporan**
+**2.2.6 Generate Laporan**
 
 Use Case: Laporan
 
@@ -227,7 +208,7 @@ Deskripsi Langkah-langkah
 3. Sistem akan menampilkan hasil laporan.
 4. Staff mencetak laporan 
 
-Xref: Bagian 3.2.7, Cetak Laporan
+Xref: Bagian 3.2.6, Cetak Laporan
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
@@ -317,21 +298,8 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data barang keluar |
 | Exception Push | Tidak ada koneksi |
-
-**3.2.5 Staff Input Data Permintaan Barang**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Input data permintaan barang |
-| Xref | Bagian 2.2.7, Input data permintaan barang |
-| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
-| Precondition | Halaman data barang |
-| Basic Path | 1. Staff melakukan input data permintaan barang dan jumlahmya <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
-| Alternative | Tidak ada |
-| Post Condition | Halaman form input data barang |
-| Exception Push | Tidak ada koneksi |
    
-**3.2.6 Staff Melihat Data Barang**
+**3.2.5 Staff Melihat Data Barang**
 
 |  |  |
 |--|--|
@@ -344,7 +312,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman data barang |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.7 Cetak Laporan**
+**3.2.6 Cetak Laporan**
 
 |  |  |
 |--|--|
