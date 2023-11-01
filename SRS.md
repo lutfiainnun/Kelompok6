@@ -6,7 +6,7 @@ Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi p
 
 1.2   Lingkup
 ----------
-Sistem Inventory Laundry merupakan website yang kami bangun untuk mempermudah staf dalam mengelola persediaan barang maupun peralatan yang dibutuhkan dalam menjalankan usaha laundry yang ada di SMKN 1 Pekanbaru seperti deterjen, pelembut kain, bahan kimia pencucian, pengharum pakaian, hanger, kemasan, hingga peralatan seperti mesin cuci, mesin pengering, dan peralatan penyetrikaan.
+Sistem Inventory Laundry merupakan website yang kami bangun untuk mempermudah staf dalam mengelola persediaan barang maupun peralatan yang dibutuhkan dalam menjalankan usaha laundry yang ada di SMKN 1 Pekanbaru seperti deterjen, pelembut kain, bahan kimia pencucian, pengharum pakaian, hanger, hingga kemasan.
 
 1.3    Akronim, singkatan, definisi
 ----------
@@ -25,14 +25,14 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada Website. Menjelask
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus Proyek ini kami menganalisis kebutuhan suatu Sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pembuatan laporan mengenai inventory laundry. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data inventory laundry. Sehingga memudahkan staff dalam menginputkan data barang persediaan serta mengecek stock barang yang tersedia maupun yang berkurang. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat pencatatan persediaan barang, pencatatan barang yang digunakan, pencatatan persediaan yang dikeluarkan, laporan pemasukan barang serta pengeluaran stok barang. Berikut akan kami jelaskan sistem software kami, staff laundry fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus Proyek ini kami menganalisis kebutuhan suatu Sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pembuatan laporan mengenai inventory laundry. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data inventory laundry. Sehingga memudahkan staff dalam menginputkan data barang persediaan serta mengecek stock barang yang tersedia maupun yang berkurang. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat pencatatan barang masuk, pencatatan barang keluar, pencatatan permintaan, laporan pemasukan barang serta pengeluaran barang. Berikut akan kami jelaskan sistem software kami, staff laundry fungsi utama yaitu :
 
    - Input Pencatatan Barang Masuk
    - Input Pencatatan Barang keluar
    - Input Pencatatan Permintaan Barang
    - Laporan pemasukan dan pengeluaran stok barang
    
-   Berikut ini fungsi kepala laundry dalam bentuk tabel:
+   Berikut ini fungsi staff laundry dalam bentuk tabel:
    
    - View Pencatatan Barang Masuk
    - View Pencatatan Barang keluar
@@ -41,15 +41,15 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 
 2.1   Perspektif produk
 ----------
-Inventory Laundry adalah perangkat lunak atau platform yang dirancang untuk membantu bisnis laundry mengelola persediaan mereka. Terdapat 2 jenis yaitu staff dan kepala laundry. Pengolahan data di kelola oleh staff dan kepala laundry hanya melihat laporan pada website.
+Inventory Laundry adalah perangkat lunak atau platform yang dirancang untuk membantu bisnis laundry mengelola persediaan mereka. Terdapat staff yang melakukan pengolahan data.
 
-Pada sistem inventory laundry ini akan menampilkan tabel persediaan barang yang sudah diinputkan oleh staff.
+Pada sistem inventory laundry ini akan menampilkan tabel-tabel data yang sudah diinputkan oleh staff.
 
 **2.1.1 Antarmuka sistem**
 
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20sistem.png)
 
-Sistem website Inventory Laundry SMKN 1 Pekanbaru memiliki 2 user yaitu staff dan kepala laundry.
+Website Inventory Laundry SMKN 1 Pekanbaru memiliki 1 user yaitu staff.
 
 **2.1.2 Antarmuka pengguna**
 
@@ -109,41 +109,8 @@ Tidak ada
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case.png)
-   
-**2.2.1 Kepala Laundry Login**
 
-Use Case: Login
-
-Diagram : 
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20login%20keplau.png)
-
-Deskripsi Singkat
-Kepala laundry melukan login terlebih dahulu sebelum masuk ke tampilan home.
-Deskripsi langkah-langkah
-1. Kepala laundry melakukan login dengan username dan password
-2. Sistem melakukan validasi login
-3. Bila sukses sistem akan mengarahkan ke halaman beranda
-4. Bila gagal sistem akan menampilkan peringatan
-
-Xref: Bagian 3.2.1, Login Kepala Laundry
-
-**2.2.2 Kepala laundry melihat laporan barang**
-
-Use Case: View laporan barang
-
-Diagram: 
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20laporan%20keplau.png)
-
-Deskripsi Singkat
-Kepala laundry dapat melihat laporan barang secara bulanan di Laundry SMKN 1 Pekanbaru.
-Deskripsi Langkah-langkah
-1. Kepala laundry mengklik navbar laporan
-2. Kepala laundry memilih combobox tersebut dan klik tombol cetak laporan
-3. Sistem akan menampilkan hasil laporan.
-
-Xref: Bagian 3.2.2, View laporan barang
-
-**2.2.3 Staff login**
+**2.2.1 Staff Login**
 
 Use Case: Login
 
@@ -158,9 +125,9 @@ Deskripsi Langkah-langkah
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.3, Login Staff
+Xref: Bagian 3.2.1, Login Staff
 
-**2.2.4 Staff input data barang**
+**2.2.2 Staff Input Data Barang**
 
 Use Case: Input data barang
 
@@ -170,14 +137,14 @@ Diagram:
 Deskripsi Singkat
 Staff melakukan input data barang yang biasanya digunakan untuk proses laundry dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Staff melakukan input data barang.
+1. Staff melakukan input data barang dan jumlahmya.
 2. Staff mengklik tombol simpan.
-3. Sistem menyimpan data kependudukan.
+3. Sistem menyimpan data barang.
 4. Bila data sudah ada sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.4, Input data barang
+Xref: Bagian 3.2.2, Input data barang
 
-**2.2.5 Staff input data barang masuk**
+**2.2.3 Staff input data barang masuk**
 
 Use Case: Input data barang masuk
 
@@ -187,14 +154,13 @@ Diagram:
 Deskripsi Singkat
 Staff melakukan input data barang yang masuk untuk tambahan stock barang dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Staff melakukan input data barang masuk.
+1. Staff melakukan input data barang masuk dan jumlahmya.
 2. Staff mengklik tombol simpan.
-3. Sistem menyimpan data kependudukan.
-4. Bila data sudah ada sistem akan menampilkan peringatan
+3. Sistem menyimpan data barang masuk.
+   
+Xref: Bagian 3.2.3, Input data barang masuk
 
-Xref: Bagian 3.2.5, Input data barang masuk
-
-**2.2.6 Staff input data barang keluar**
+**2.2.4 Staff Input Data Barang Keluar**
 
 Use Case: Input data barang keluar
 
@@ -204,14 +170,13 @@ Diagram:
 Deskripsi Singkat
 Staff melakukan input data barang keluar atau barang yang telah digunakan untuk proses laundry dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Staff melakukan input data barang keluar.
+1. Staff melakukan input data barang keluar dan jumlahmya.
 2. Staff mengklik tombol simpan.
-3. Sistem menyimpan data kependudukan.
-4. Bila data sudah ada sistem akan menampilkan peringatan
+3. Sistem menyimpan data barang keluar.
 
-Xref: Bagian 3.2.6, Input data barang keluar
+Xref: Bagian 3.2.4, Input data barang keluar
 
-**2.2.7 Staff input data permintaan barang**
+**2.2.5 Staff Input Data Permintaan Barang**
 
 Use Case: Input data permintaan barang
 
@@ -221,15 +186,14 @@ Diagram:
 Deskripsi Singkat
 Staff melakukan input data permintaan barang dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Staff melakukan input data permintaan barang.
+1. Staff melakukan input data permintaan barang dan jumlahmya.
 2. Staff mengklik tombol simpan.
-3. Sistem menyimpan data kependudukan.
-4. Bila data sudah ada sistem akan menampilkan peringatan
+3. Sistem menyimpan data permintaan barang.
 
-Xref: Bagian 3.2.7, Input data permintaan barang
+Xref: Bagian 3.2.5, Input data permintaan barang
 
 
-**2.2.8 Staff melihat data barang**
+**2.2.6 Staff Melihat Data Barang**
 
 Use Case: View data barang
 
@@ -245,9 +209,9 @@ Deskripsi Langkah-langkah
 4. Staff  mengedit data barang yang baru atau yang sudah ada
 5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
 
-Xref: Bagian 3.2.8, View data barang
+Xref: Bagian 3.2.6, View data barang
    
-**2.2.9 Generate Laporan**
+**2.2.7 Generate Laporan**
 
 Use Case: Laporan
 
@@ -255,14 +219,14 @@ Diagram:
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20laporan%20staff.png)
 
 Deskripsi Singkat
-Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
+Sistem akan mengirimkan data barang, barang masuk serta barang keluar dan yang lainnya ke fungsi laporan
 Deskripsi Langkah-langkah
-1. Sistem menampilkan laporan kependudukan
+1. Sistem menampilkan laporan barang
 2. Staff memilih combobox tersebut dan klik tombol cetak
 3. Sistem akan menampilkan hasil laporan.
 4. Staff mencetak laporan 
 
-Xref: Bagian 3.2.9, Cetak Laporan
+Xref: Bagian 3.2.7, Cetak Laporan
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
@@ -295,39 +259,13 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu login melalui website ini dengan mencantumkan username kemudian sistem akan mencocokkan username staff dan kepala laundry. Setelah login berhasil kepala laundry dapat melihat laporan data barang Laundry SMKN 1 Pekanbaru.
+Salah satu cara mengakses aplikasi ini yaitu login melalui website ini dengan mencantumkan username kemudian sistem akan mencocokkan username staff. Setelah login berhasil staff dapat melakukan pengolahan data pada website Inventory Laundry SMKN 1 Pekanbaru.
       
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
-
-**3.2.1 Kepala laundry Login**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Login Kepala laundry |
-| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
-| Precondition | Halaman login |
-| Basic Path | 1. Kepala laundry mengisi form login dengan username dan password <br> 2.Kepala laundry mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
-| Alternative | Tidak ada |
-| Post Condition | Kepala laundry dapat login dan mengakses website Inventory Laundry SMKN 1 Pekanbaru |
-| Exception Push | Username dan password salah |
-      
-**3.2.2 Kepala laundry melihat laporan barang**
-
-|  |  |
-|--|--|
-| Nama Fungsi | View laporan barang |
-| Xref | Bagian 2.2.2, View laporan barang |
-| Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
-| Precondition | Membuka halaman laporan |
-| Basic Path | 1. Kepala laundry mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala laundry memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
-| Alternative | Tidak ada |
-| Post Condition | Kepala laundry melihat laporan barang |
-| Exception Push | Tidak ada koneksi |
    
-**3.2.3 Staff login**
+**3.2.1 Staff Login**
 
 |  |  |
 |--|--|
@@ -340,7 +278,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Staff berhasil login dan mengakses website Inventory Laundry SMKN 1 Pekanbaru |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Staff input data barang**
+**3.2.2 Staff Input Data Barang**
 
 |  |  |
 |--|--|
@@ -348,12 +286,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.4, Input data barang |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
 | Precondition | Halaman utama staff |
-| Basic Path | 1. Staff melakukan input data barang yang biasanya digunakan untuk proses laundry <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Basic Path | 1. Staff melakukan input data barang yang biasanya digunakan untuk proses laundry dan jumlahmya <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data barang |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.5 Staff input data barang masuk**
+**3.2.3 Staff Input Data Barang Masuk**
 
 |  |  |
 |--|--|
@@ -361,12 +299,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.5, Input data barang masuk |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
 | Precondition | Halaman utama staff |
-| Basic Path | 1. Staff melakukan input data barang yang masuk untuk tambahan stock barang <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
+| Basic Path | 1. Staff melakukan input data barang yang masuk untuk tambahan stock barang dan jumlahmya <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data barang masuk |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.6 Staff input data barang keluar**
+**3.2.4 Staff Input Data Barang Keluar**
 
 |  |  |
 |--|--|
@@ -374,12 +312,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.6, Input data barang keluar |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
 | Precondition | Halaman utama staff |
-| Basic Path | 1. Staff melakukan inpu tdata barang keluar atau barang yang telah digunakan untuk proses laundry <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
+| Basic Path | 1. Staff melakukan inpu tdata barang keluar atau barang yang telah digunakan untuk proses laundry dan jumlahmya <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data barang keluar |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.7 Staff input data permintaan barang**
+**3.2.5 Staff Input Data Permintaan Barang**
 
 |  |  |
 |--|--|
@@ -387,12 +325,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.7, Input data permintaan barang |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
 | Precondition | Halaman utama staff |
-| Basic Path | 1. Staff melakukan input data permintaan barang <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
+| Basic Path | 1. Staff melakukan input data permintaan barang dan jumlahmya <br> 2. Staff mengklik tombol simpan <br> 3. Sistem menyimpan data barang |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data barang |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.8 Staff melihat data barang**
+**3.2.6 Staff Melihat Data Barang**
 
 |  |  |
 |--|--|
@@ -405,7 +343,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman data barang |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.9 Cetak Laporan**
+**3.2.7 Cetak Laporan**
 
 |  |  |
 |--|--|
@@ -413,7 +351,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.9, Cetak Laporan |
 | Trigger | Membuka website Inventory Laundry SMKN 1 Pekanbaru |
 | Precondition | halaman utama staff |
-| Basic Path | 1. Staff mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Staff memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Staff mencetak laporan  |
+| Basic Path | 1. Staff mengklik tombol laporan <br> 2. Sistem menampilkan laporan barang <br> 3. Staff memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Staff mencetak laporan  |
 | Alternative | Tidak ada |
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
@@ -424,14 +362,6 @@ Logika Struktur terdapat pada bagian 3.3.1
 Struktur data logika pada sistem website Inventory Laundry SMKN 1 Pekanbaru terdapat struktur Database yang dijelaskan menggunakan ERD.
 
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/ERD.png)
-
-**Tabel Kepala Laundry**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kepala_laundry| int | Nomer auto increment Id_kepala_laundry|
-| Username | varchar | berisikan username untuk akses kepala laundry |
-| Password | varchar | berisikan password untuk login kepala laundry |
 
 **Tabel Staff**
 
@@ -456,5 +386,7 @@ Struktur data logika pada sistem website Inventory Laundry SMKN 1 Pekanbaru terd
 | ------ | ------ | ------ |
 | Id_laporan| int | Nomer auto increment Id_laporan|
 | Nama | varchar | Nama Laporan|
-| Jumlah | varchar | Jumlah laporan|
+| Jumlah | varchar | Jumlah barang yang diinputkan|
 | Tanggal | date | Tanggal laporan dibuat |
+| Barang_masuk | varchar | Jenis laporan |
+| Barang_keluar | varchar | Jenis laporan |
