@@ -418,6 +418,8 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
 
+3.3 Struktur Detail Kebutuhan Non-Fungsional
+----------
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem website Inventory Laundry SMKN 1 Pekanbaru terdapat struktur Database yang dijelaskan menggunakan ERD.
 
