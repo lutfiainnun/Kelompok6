@@ -7,7 +7,7 @@ Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi p
 
 1.2   Lingkup
 ----------
-Sistem Inventory Laundry merupakan website yang kami bangun untuk mempermudah staf dalam mengelola persediaan barang maupun peralatan yang dibutuhkan dalam menjalankan usaha laundry yang ada di SMKN 1 Pekanbaru seperti deterjen, pelembut kain, bahan kimia pencucian, pengharum pakaian, hanger, hingga kemasan.
+Sistem Inventory Laundry merupakan website yang kami bangun untuk mempermudah staff dalam mengelola persediaan barang maupun barang yang dibutuhkan dalam menjalankan usaha laundry yang ada di SMKN 1 Pekanbaru seperti deterjen, pelembut kain, bahan kimia pencucian, pengharum pakaian, hanger, hingga kemasan.
 
 1.3    Akronim, singkatan, definisi
 ----------
@@ -356,3 +356,12 @@ Struktur data logika pada sistem website Inventory Laundry SMKN 1 Pekanbaru terd
 | Tanggal | date | Tanggal laporan dibuat |
 | Barang_masuk | varchar | Jenis laporan |
 | Barang_keluar | varchar | Jenis laporan |
+----------
+
+**Job Desk**
+
+| Nama | Tugas |
+| ------ | ------ | 
+| Juniardi | Use Case & ERD | 
+| Lutfi Ainnun Fruityantri | SRS | 
+| M. Qushairi Asshiddiqie | Mockup Website | 
