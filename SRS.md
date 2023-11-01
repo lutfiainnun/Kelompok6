@@ -417,3 +417,40 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Alternative | Tidak ada |
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
+
+**3.3.1 Logika Struktur Data**
+Struktur data logika pada sistem website Inventory Laundry SMKN 1 Pekanbaru terdapat struktur Database yang dijelaskan menggunakan ERD.
+
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/ERD.png)
+
+**Tabel Kepala Laundry**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_user| int | Nomer auto increment Id_user|
+| Username | varchar | berisikan username untuk akses kepala laundry |
+| Password | varchar | berisikan password untuk login kepala laundry |
+
+**Tabel Staff**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_staff| int | Nomer auto increment Id_user|
+| Username | varchar | berisikan username untuk akses staff |
+| Password | varchar | berisikan password untuk login staff |
+
+**Tabel Barang**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_barang | varchar | Nomer auto increment Id_barang|
+| Nama | varchar | Nama Barang|
+| Jumlah | varchar | Jumlah barang yang diinputkan|
+| Tanggal | date | Tanggal menginputkan barang |
+
+**Tabel Laporan**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_laporan| int | Nomer auto increment Id_laporan|
+| laporan | varchar | berisi laporan barang |
