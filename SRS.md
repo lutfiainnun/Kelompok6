@@ -340,7 +340,7 @@ Struktur data logika pada sistem website Inventory Laundry SMKN 1 Pekanbaru terd
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_staff| int | Nomer auto increment Id_user|
+| Id_staff| int | Nomer auto increment Id_staff|
 | Username | varchar | berisikan username untuk akses staff |
 | Password | varchar | berisikan password untuk login staff |
 
