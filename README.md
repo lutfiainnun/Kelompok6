@@ -63,9 +63,41 @@ Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan
 
 **2.1.3 Antarmuka perangkat keras**
 
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20perangkat%20keras.png)
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20perangkat%20keras%201.png)
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Inventory Laundry SMKN 1 Pekanbaru antara lain :
 
 1. PC / Laptop
-Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
+Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser.
+
+**2.1.4 Antarmuka perangkat lunak**
+
+Tidak ada
+
+**2.1.5 Antarmuka Komunikasi**
+
+Antarmuka komunikasi yang digunakan untuk mengoperasikan Perangkat Lunak Inventory Laundry SMKN 1 Pekanbaru antara lain :
+1. Kabel Lan UTP RJ45
+2. Modem
+3. Wifi
+
+**2.1.6 Batasan memori**
+
+Tidak ada
+
+**2.1.7 Operasi-operasi**
+
+| Operasi | Fungsi |
+| ------ | ------ |
+| Login | Digunakan untuk mengakses website |
+| Input Data | Digunakan untuk memasukkan data-data |
+| Kembali | Digunakan untuk kembali ke halaman sebelumnya |
+| Hapus | Digunakan untuk menghapus data |
+| Edit | Digunakan untuk mengubah data |
+| View | Digunakan untuk menampilkan data |
+| Simpan | Digunakan untuk menyimpan data |
+| Cetak | Digunakan untuk mencetak laporan |
+
+**2.1.8 Kebutuhan adaptasi**
+
+Tidak ada
