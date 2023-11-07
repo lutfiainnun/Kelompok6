@@ -60,3 +60,12 @@ Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan
 | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Tambah%20Data%20Barang.png) Pada halaman tambah data barang dapat menginputkan data barang baru| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Edit%20Data%20Barang.png) Pada halaman edit data barang dapat mengubah data barang yang telah ada| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Delete%20Data%20Barang.png) Pada halaman delete data barang dapat menghapus data barang|
 | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Barang%20Masuk.png) Pada halaman barang masuk dapat menginputkan data barang yang masuk sebagai penambahan stok barang| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Barang%20Keluar.png) Pada halaman barang keluar dapat melihat barang keluar atau yang telah digunakan|
 | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Laporan.png) Pada halaman laporan dapat melihat dan mendownload laporan penduduk||
+
+**2.1.3 Antarmuka perangkat keras**
+
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20perangkat%20keras.png)
+
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Inventory Laundry SMKN 1 Pekanbaru antara lain :
+
+1. PC / Laptop
+Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
