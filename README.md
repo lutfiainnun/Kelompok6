@@ -272,7 +272,7 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu login melalui website ini dengan mencantumkan username kemudian sistem akan mencocokkan username staff. Setelah login berhasil staff dapat melakukan pengolahan data pada website Inventory Laundry SMKN 1 Pekanbaru.
+Salah satu cara mengakses aplikasi ini yaitu login melalui website ini dengan mencantumkan username kemudian sistem akan mencocokkan username Resepsionis. Setelah login berhasil Resepsionis dapat melakukan pengolahan data pada website Pengelolaan Edotel SMKN 1 Pekanbaru.
       
 3.2 Functional Requirement
 ----------
