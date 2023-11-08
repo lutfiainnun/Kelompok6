@@ -8,7 +8,7 @@ Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi p
 ----------
 Sistem Pengelolaan Edotel merupakan website yang kami bangun untuk mempermudah pengelola hotel dalam mengelola data pemesanan kamar oleh pelanggan, pencatatan check-in, proses check-out dan daftar kedatangan yang diharapkan sehingga proses pengeloaan hotel berjalan dengan efektif dan efisien.
 
-1.3    Akronim, singkatan, definisi
+1.3    Akronim, Singkatan, Definisi
 ----------
 
 | Istilah | Definisi |
@@ -27,28 +27,24 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada Website. Menjelask
 ----------
 Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus proyek ini kami menganalisis kebutuhan suatu unit produksi sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pengelolaan unit produksi yaitu Edotel. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data Edotel. Sehingga memudahkan resepsionis dalam mengelola proses berjalannya Edotel. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat informasi pemesanan kamar, pencatatan check-in, proses check-out serta daftar kedatangan yang diharapkan. Berikut akan kami jelaskan sistem software kami, resepsionis Edotel fungsi utama yaitu :
 
-   - Input Informasi Pemesanan Kamar 
+   - Input Informasi Kamar 
    - Input Pencatatan Check-in
    - Input Proses Check-out
-   - Input Daftar Kedatangan Yang Diharapkan
+   - Input Data Kamar
    
-   Berikut ini fungsi Kepala Edotel:
+   Berikut ini fungsi Manager Edotel:
    
-   - View Pencatatan Barang Masuk
-   - View Pencatatan Barang keluar
-   - View Laporan pemasukan dan pengeluaran stok barang
+   - View Laporan Transaksi/Pendapatan
 
 2.1   Perspektif produk
 ----------
-Sistem Pengelolaan Edotel adalah sebuah sistem pengelolaan data yang di aplikasiskan pada website. Terdapat 2 jenis yaitu resepsionis dan kepala hotel. Pengolahan data di kelola oleh resepsionis dan kepala hotel hanya melihat grafik dan laporan pada website.
-
-Pada sistem pengelolaan data hotel ini akan menampilkan grafik kependudukan yang sudah di inputkan oleh admin.
+Sistem Pengelolaan Edotel adalah sebuah sistem pengelolaan data yang di aplikasiskan pada website. Terdapat 2 jenis yaitu resepsionis dan manager hotel. Pengolahan data di kelola oleh resepsionis dan manager hotel hanya melihat laporan pada website.
 
 **2.1.1 Antarmuka sistem**
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
 
-Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan kepala hotel. Kepala hotel mempunyai fungsi yaitu melakukan view grafik dan bisa view laporan. Resepsionis bertugas untuk mengelola data, supaya data bisa di akses oleh kepala hotel.
+Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan manager hotel. Manager hotel mempunyai fungsi yaitu melakukan view laporan dan bisa view laporan. Resepsionis bertugas untuk mengelola data, supaya data bisa di akses oleh kepala hotel.
 
 **2.1.2 Antarmuka pengguna**
 
@@ -56,8 +52,8 @@ Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Login.png) Pada halaman login staff diminta untuk mengisi username dan password.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Halaman%20Utama%20Data%20Barang.png) Pada halaman data barang terdapat tabel yang berisi nama barang, stock barang, aksi, fitur pencarian dan tombol tambah barang serta ucapan selamat datang.|
-| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Tambah%20Data%20Barang.png) Pada halaman tambah data barang dapat menginputkan data barang baru| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Edit%20Data%20Barang.png) Pada halaman edit data barang dapat mengubah data barang yang telah ada| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Delete%20Data%20Barang.png) Pada halaman delete data barang dapat menghapus data barang|
+| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Login%20(1).png) Pada halaman login user diminta untuk mengisi username dan password.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Dashboard.png) Pada halaman dashboard akan menampilkan kamar yang tersedia, terpakai serta yang kotor, dll.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Informasi%20kamar.png) Pada halaman informasi kamar terdapat tabel yang berisi segala informasi tentang kamar.|
+| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Tambah%20Data%20Barang.png) Pada halaman tambah data kamar dapat menginputkan data kamae baru| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Edit%20Data%20Barang.png) Pada halaman edit data barang dapat mengubah data barang yang telah ada| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Delete%20Data%20Barang.png) Pada halaman delete data barang dapat menghapus data barang|
 | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Barang%20Masuk.png) Pada halaman barang masuk dapat menginputkan data barang yang masuk sebagai penambahan stok barang| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Barang%20Keluar.png) Pada halaman barang keluar dapat melihat barang keluar atau yang telah digunakan|
 | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Laporan.png) Pada halaman laporan dapat melihat dan mendownload laporan penduduk||
 
