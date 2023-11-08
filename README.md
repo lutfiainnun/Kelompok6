@@ -42,7 +42,7 @@ Sistem Pengelolaan Edotel adalah sebuah sistem pengelolaan data yang di aplikasi
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20sistem%201.png)
 
 Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan manager hotel. Manager hotel mempunyai fungsi yaitu melakukan view laporan. Resepsionis bertugas untuk mengelola data, supaya data bisa di akses oleh manager hotel.
 
