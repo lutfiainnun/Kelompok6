@@ -388,3 +388,66 @@ Logika Struktur terdapat pada bagian 3.3.1
 Struktur data logika pada website Pengelolaan Edotel SMKN 1 Pekanbaru terdapat struktur Database yang dijelaskan menggunakan ERD.
 
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/erd%20hotel.png)
+
+**Tabel Resepsionis**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_resepsionis| int | Nomer auto increment Id_resepsionis|
+| Username | varchar | berisikan username untuk akses resepsionis |
+| Password | varchar | berisikan password untuk login resepsionis |
+
+**Tabel Manager**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_manager| int | Nomer auto increment Id_manager|
+| Username | varchar | berisikan username untuk akses manager |
+| Password | varchar | berisikan password untuk login manager |
+
+**Tabel Kamar**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_kamar | varchar | Nomer auto increment Id_kamar|
+| no_kamar | int | Nomor kamar|
+| Jumlah | int | Jumlah kamar yang tersedia|
+| status | varchar | status kamar|
+| tipe_kamar | varchar | tipe kamar yang tersedia di Edotel|
+| harga | varchar | harga kamar untuk menginap |
+
+**Tabel Reservasi**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| tanggal_masuk | date | berisikan tanggal pelanggan melakukan check in |
+| tanggal_keluar | date | berisikan tanggal pelanggan melakukan check out |
+
+**Tabel Pelanggan**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_pelanggan| int | Nomer auto increment Id_pelanggan|
+| nama | varchar | berisikan nama pelanggan |
+| no_hp | varchar | berisikan no hp pelanggan |
+| email | varchar | berisikan email pelanggan |
+| alamat | varchar | berisikan alamat pelanggan |
+
+**Tabel Laporan**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| Id_laporan| int | Nomer auto increment Id_laporan|
+| tanggal_masuk | date | berisikan tanggal pelanggan melakukan check in |
+| tanggal_keluar | date | berisikan tanggal pelanggan melakukan check out |
+| transaksi | varchar | berisikan data transaksi kamar |
+| total | varchar | berisikan total biaya kamar |
+----------
+
+**Job Desk**
+
+| Nama | Tugas |
+| ------ | ------ | 
+| Juniardi | Use Case & ERD | 
+| Lutfi Ainnun Fruityantri | SRS, Use Case & ERD | 
+| M. Qushairi Asshiddiqie | Antarmuka pengguna | 
