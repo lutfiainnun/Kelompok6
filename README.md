@@ -330,7 +330,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data kamar |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.5 Staff Input Data Check In**
+**3.2.5 Resepsionis Input Data Check In**
 
 |  |  |
 |--|--|
@@ -343,7 +343,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data check in |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.6 Staff Input Data Check Out**
+**3.2.6 Resepsionis Input Data Check Out**
 
 |  |  |
 |--|--|
