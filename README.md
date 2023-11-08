@@ -37,6 +37,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
    - Input Pencatatan Check-in
    - Input Proses Check-out
    - Input Data Kamar
+   - Input Data Tamu
    
    Berikut ini fungsi Manager Edotel:
    
@@ -44,7 +45,7 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 
 2.1   Perspektif produk
 ----------
-Sistem Pengelolaan Edotel adalah sebuah sistem pengelolaan data yang di aplikasiskan pada website. Terdapat 2 jenis yaitu resepsionis dan manager hotel. Pengolahan data di kelola oleh resepsionis dan manager hotel hanya melihat laporan pada website.
+Sistem Pengelolaan Edotel adalah sebuah sistem pengelolaan data yang di aplikasikan pada website. Terdapat 2 jenis yaitu resepsionis dan manager hotel. Pengolahan data di kelola oleh resepsionis dan manager hotel hanya melihat laporan pada website.
 
 **2.1.1 Antarmuka sistem**
 
