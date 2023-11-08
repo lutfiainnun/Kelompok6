@@ -249,7 +249,7 @@ Xref: Bagian 3.2.8, Laporan
    | No | Deskripsi |
    | ------ | ------ |
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Staff dan kepala laundry ) 
+   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Resepsionis dan Manager ) 
  
 2.4   Karakteristik pengguna
 ----------
