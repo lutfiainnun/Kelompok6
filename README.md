@@ -1,3 +1,9 @@
+<html>
+<p align="center">
+<img src="https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Software%20Requirements%20Specification-1%20(2)_page-0001.jpg"/ >
+</p>
+</html>
+
 **BAB I Pendahuluan**
 ----------
 1.1 Tujuan
