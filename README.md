@@ -61,7 +61,7 @@ Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan
 
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20perangkat%20keras%201.png)
 
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Pengelolaan Edotel SMKN 1 Pekanbaru antara lain :
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Pengelolaan Edotel SMKN 1 Pekanbaru antara lain:
 
 1. PC / Laptop
 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser.
