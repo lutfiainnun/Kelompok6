@@ -44,7 +44,7 @@ Sistem Pengelolaan Edotel adalah sebuah sistem pengelolaan data yang di aplikasi
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
 
-Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan manager hotel. Manager hotel mempunyai fungsi yaitu melakukan view laporan dan bisa view laporan. Resepsionis bertugas untuk mengelola data, supaya data bisa di akses oleh kepala hotel.
+Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan manager hotel. Manager hotel mempunyai fungsi yaitu melakukan view laporan. Resepsionis bertugas untuk mengelola data, supaya data bisa di akses oleh manager hotel.
 
 **2.1.2 Antarmuka pengguna**
 
@@ -52,10 +52,10 @@ Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Login%20(1).png) Pada halaman login user diminta untuk mengisi username dan password.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Dashboard.png) Pada halaman dashboard akan menampilkan kamar yang tersedia, terpakai serta yang kotor, dll.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Informasi%20kamar.png) Pada halaman informasi kamar terdapat tabel yang berisi segala informasi tentang kamar.|
-| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Tambah%20Data%20Barang.png) Pada halaman tambah data kamar dapat menginputkan data kamae baru| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Edit%20Data%20Barang.png) Pada halaman edit data barang dapat mengubah data barang yang telah ada| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Delete%20Data%20Barang.png) Pada halaman delete data barang dapat menghapus data barang|
-| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Barang%20Masuk.png) Pada halaman barang masuk dapat menginputkan data barang yang masuk sebagai penambahan stok barang| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Barang%20Keluar.png) Pada halaman barang keluar dapat melihat barang keluar atau yang telah digunakan|
-| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Laporan.png) Pada halaman laporan dapat melihat dan mendownload laporan penduduk||
+| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Login%20(1).png) Pada halaman login user diminta untuk mengisi username dan password.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Dashboard.png) Pada halaman dashboard akan menampilkan kamar yang tersedia, terpakai serta yang kotor, dll.| 
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Informasi%20kamar.png) Pada halaman informasi kamar terdapat tabel yang berisi segala informasi tentang kamar.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tambah%20data%20kamar.png) Pada halaman tambah data kamar dapat menginputkan data kamar baru| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Check%20In.png) Pada halaman check in terdapat pilihan kamar yang tersedia| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tambah%20data%20tamu.png) Pada halaman ini terdapat form data tamu yang harus diisi jika ingin check in.|
+| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20check%20out.png) Pada halaman ini terdapat daftar kamar yang terpakai| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Check%20out.png) Pada halaman ini terdapat form data tamu yang harus diisi jika ingin check out.|
+| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Laporan%20transaksi.png) Pada halaman laporan dapat melihat total pendapatan||
 
 **2.1.3 Antarmuka perangkat keras**
 
