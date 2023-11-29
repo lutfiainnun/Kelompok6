@@ -324,7 +324,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada website Pengelolaan Edotel SMKN 1 Pekanbaru terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/erd%20hotel.png)
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/erd%20edotel.png)
 
 **Tabel Admin**
 
