@@ -105,14 +105,14 @@ Tidak ada
 
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20hotel.png)
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20(1).png)
 
 **2.2.1 Admin Login**
 
 Use Case: Login
 
 Diagram :
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20login.png)
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20login.png)
 
 Deskripsi Singkat
 Admin melakukan login dengan memasukan username password.
@@ -129,7 +129,7 @@ Xref: Bagian 3.2.1, Login Resepsionis
 Use Case: Input data kamar
 
 Diagram:
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20kelola%20data%20kamar.png)
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20data%20kamar.png)
       
 Deskripsi Singkat
 Admin melakukan input data kamar yang tersedia di Edotel dan sistem menyimpan data pada database.
@@ -146,7 +146,7 @@ Xref: Bagian 3.2.2, Input data kamar
 Use Case: Input data check in
 
 Diagram:
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20kelola%20check%20in.png)
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20check%20in.png)
       
 Deskripsi Singkat
 Admin melakukan input data check in untuk reservasi pelanggan dan sistem menyimpan data pada database.
@@ -162,7 +162,7 @@ Xref: Bagian 3.2.3, Input data check in
 Use Case: Input data check out
 
 Diagram:
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20kelola%20check%20out.png)
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20check%20out.png)
       
 Deskripsi Singkat
 Admin melakukan input data check out untuk reservasi pelanggan dan sistem menyimpan data pada database.
@@ -178,7 +178,7 @@ Xref: Bagian 3.2.4, Input data check out
 Use Case: Input data tamu
 
 Diagram:
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20kelola%20data%20tamu.png)
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20data%20tamu.png)
       
 Deskripsi Singkat
 Admin melakukan input data tamu yang akan menginap di Edotel dan sistem menyimpan data pada database.
@@ -194,7 +194,7 @@ Xref: Bagian 3.2.5, Input data tamu
 Use Case: Laporan
 
 Diagram:
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20laporan.png)
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20laporan.png)
 
 Deskripsi Singkat
 Sistem akan mengirimkan tanggal transaksi serta total biaya kamar dan yang lainnya ke fungsi laporan
