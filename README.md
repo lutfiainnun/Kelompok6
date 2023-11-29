@@ -31,27 +31,24 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada Website. Menjelask
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus proyek ini kami menganalisis kebutuhan suatu unit produksi sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pengelolaan unit produksi yaitu Edotel. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data Edotel. Sehingga memudahkan resepsionis dalam mengelola proses berjalannya Edotel. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat informasi pemesanan kamar, pencatatan check-in, proses check-out serta daftar kedatangan yang diharapkan. Berikut akan kami jelaskan sistem software kami, resepsionis Edotel fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus proyek ini kami menganalisis kebutuhan suatu unit produksi sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pengelolaan unit produksi yaitu Edotel. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data Edotel. Sehingga memudahkan resepsionis dalam mengelola proses berjalannya Edotel. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat informasi pemesanan kamar, pencatatan check-in, proses check-out serta daftar kedatangan yang diharapkan. Berikut akan kami jelaskan sistem software kami, admin Edotel fungsi utama yaitu :
 
    - Input Informasi Kamar 
    - Input Pencatatan Check-in
    - Input Proses Check-out
    - Input Data Kamar
    - Input Data Tamu
-   
-   Berikut ini fungsi Manager Edotel:
-   
    - View Laporan Transaksi/Pendapatan
 
 2.1   Perspektif produk
 ----------
-Sistem Pengelolaan Edotel adalah sebuah sistem pengelolaan data yang di aplikasikan pada website. Terdapat 2 jenis yaitu resepsionis dan manager hotel. Pengolahan data di kelola oleh resepsionis dan manager hotel hanya melihat laporan pada website.
+Sistem Pengelolaan Edotel adalah sebuah sistem pengelolaan data yang di aplikasikan pada website. Terdapat admin, pengolahan data di kelola oleh admin.
 
 **2.1.1 Antarmuka sistem**
 
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20sistem%201.png)
 
-Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 2 user yaitu resepsionis dan manager hotel. Manager hotel mempunyai fungsi yaitu melakukan view laporan. Resepsionis bertugas untuk mengelola data, supaya data bisa di akses oleh manager hotel.
+Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 1 user yaitu admin. Admin bertugas untuk mengelola data dan melihat laporan.
 
 **2.1.2 Antarmuka pengguna**
 
@@ -110,41 +107,7 @@ Tidak ada
 ----------
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20hotel.png)
 
-**2.2.1 Manager Login**
-
-Use Case: Login
-
-Diagram : 
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/manager%20login.png)
-
-Deskripsi Singkat
-Manager melukan login terlebih dahulu sebelum masuk ke tampilan home.
-Deskripsi langkah-langkah
-1. Manager melakukan login dengan username dan password
-2. Sistem melakukan validasi login
-3. Bila sukses sistem akan mengarahkan ke halaman beranda
-4. Bila gagal sistem akan menampilkan peringatan
-
-Xref: Bagian 3.2.1, Login Manager
-   
-
-**2.2.2 Manager Melihat Laporan**
-
-Use Case: View laporan 
-
-Diagram: 
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/manager%20laporan.png)
-
-Deskripsi Singkat
-Manager dapat melihat laporan secara teratur di Edotel.
-Deskripsi Langkah-langkah
-1. Manager mengklik navbar laporan
-2. Manager memilih tanggal laporan yang ingin dilihat
-3. Sistem akan menampilkan hasil laporan.
-
-Xref: Bagian 3.2.2, View laporan 
-
-**2.2.3 Resepsionis Login**
+**2.2.1 Admin Login**
 
 Use Case: Login
 
@@ -152,16 +115,16 @@ Diagram :
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20login.png)
 
 Deskripsi Singkat
-Resepsionis melakukan login dengan memasukan username password.
+Admin melakukan login dengan memasukan username password.
 Deskripsi Langkah-langkah
-1. Resepsionis melakukan login dengan username dan password
+1. Admin melakukan login dengan username dan password
 2. Sistem melakukan validasi login
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.3, Login Resepsionis
+Xref: Bagian 3.2.1, Login Resepsionis
 
-**2.2.4 Resepsionis Input Data Kamar**
+**2.2.2 Admin Input Data Kamar**
 
 Use Case: Input data kamar
 
@@ -169,16 +132,16 @@ Diagram:
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20kelola%20data%20kamar.png)
       
 Deskripsi Singkat
-Resepsionis melakukan input data kamar yang tersedia di Edotel dan sistem menyimpan data pada database.
+Admin melakukan input data kamar yang tersedia di Edotel dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Resepsionis melakukan input data kamar.
-2. Resepsionis mengklik tombol simpan.
+1. Admin melakukan input data kamar.
+2. Admin mengklik tombol simpan.
 3. Sistem menyimpan data barang.
 4. Bila data sudah ada sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.4, Input data kamar
+Xref: Bagian 3.2.2, Input data kamar
 
-**2.2.5 Resepsionis Input Data Check In**
+**2.2.3 Resepsionis Input Data Check In**
 
 Use Case: Input data check in
 
@@ -186,15 +149,15 @@ Diagram:
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20kelola%20check%20in.png)
       
 Deskripsi Singkat
-Resepsionis melakukan input data check in untuk reservasi pelanggan dan sistem menyimpan data pada database.
+Admin melakukan input data check in untuk reservasi pelanggan dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Resepsionis melakukan input data-data yang diperlukan untuk check in.
-2. Resepsionis mengklik tombol simpan.
+1. Admin melakukan input data-data yang diperlukan untuk check in.
+2. Admin mengklik tombol simpan.
 3. Sistem menyimpan data check in.
    
-Xref: Bagian 3.2.5, Input data check in
+Xref: Bagian 3.2.3, Input data check in
 
-**2.2.6 Resepsionis Input Data Check Out**
+**2.2.4 Admin Input Data Check Out**
 
 Use Case: Input data check out
 
@@ -202,15 +165,15 @@ Diagram:
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20kelola%20check%20out.png)
       
 Deskripsi Singkat
-Resepsionis melakukan input data check out untuk reservasi pelanggan dan sistem menyimpan data pada database.
+Admin melakukan input data check out untuk reservasi pelanggan dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Resepsionis melakukan input data-data yang diperlukan untuk check out.
-2. Resepsionis mengklik tombol simpan.
+1. Admin melakukan input data-data yang diperlukan untuk check out.
+2. Admin mengklik tombol simpan.
 3. Sistem menyimpan data check out.
    
-Xref: Bagian 3.2.6, Input data check out
+Xref: Bagian 3.2.4, Input data check out
 
-**2.2.7 Resepsionis Input Data Tamu**
+**2.2.5 Admin Input Data Tamu**
 
 Use Case: Input data tamu
 
@@ -218,15 +181,15 @@ Diagram:
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/resepsionis%20kelola%20data%20tamu.png)
       
 Deskripsi Singkat
-Resepsionis melakukan input data tamu yang akan menginap di Edotel dan sistem menyimpan data pada database.
+Admin melakukan input data tamu yang akan menginap di Edotel dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Resepsionis melakukan input data tamu.
-2. Resepsionis mengklik tombol simpan.
+1. Admin melakukan input data tamu.
+2. Admin mengklik tombol simpan.
 3. Sistem menyimpan data tamu.
 
-Xref: Bagian 3.2.7, Input data tamu
+Xref: Bagian 3.2.5, Input data tamu
 
-**2.2.8 Generate Laporan**
+**2.2.6 Generate Laporan**
 
 Use Case: Laporan
 
@@ -237,10 +200,10 @@ Deskripsi Singkat
 Sistem akan mengirimkan tanggal transaksi serta total biaya kamar dan yang lainnya ke fungsi laporan
 Deskripsi Langkah-langkah
 1. Sistem menampilkan laporan
-2. Resepsionis memilih combobox tersebut dan klik tombol lihat laporan
+2. Admin memilih combobox tersebut dan klik tombol lihat laporan
 3. Sistem akan menampilkan hasil laporan.
 
-Xref: Bagian 3.2.8, Laporan
+Xref: Bagian 3.2.6, Laporan
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
@@ -272,112 +235,86 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu login melalui website ini dengan mencantumkan username kemudian sistem akan mencocokkan username Resepsionis. Setelah login berhasil Resepsionis dapat melakukan pengolahan data pada website Pengelolaan Edotel SMKN 1 Pekanbaru.
+Salah satu cara mengakses aplikasi ini yaitu login melalui website ini dengan mencantumkan username kemudian sistem akan mencocokkan username Admin. Setelah login berhasil Admin dapat melakukan pengolahan data pada website Pengelolaan Edotel SMKN 1 Pekanbaru.
       
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
-
-**3.2.1 Manager Login**
+   
+**3.2.1 Admin login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Manager Login |
+| Xref | Bagian 2.2.1, Login Admin |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
-| Precondition | Halaman login |
-| Basic Path | 1. Manager mengisi form login dengan username dan password <br> 2.Manager mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Precondition | Halaman login Admin |
+| Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Manager dapat login dan mengakses website Pengelolaan Edotel SMKN 1 Pekanbaru |
-| Exception Push | Username dan password salah |
-      
-**3.2.2 Manager melihat laporan**
-
-|  |  |
-|--|--|
-| Nama Fungsi | View laporan |
-| Xref | Bagian 2.2.2, View laporan |
-| Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
-| Precondition | Membuka halaman laporan |
-| Basic Path | 1. Manager mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan tanggal, bulan dan tahun <br>3. Manager memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
-| Alternative | Tidak ada |
-| Post Condition | Manager melihat laporan |
-| Exception Push | Tidak ada koneksi |
-   
-**3.2.3 Resepsionis login**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Login |
-| Xref | Bagian 2.2.3, Login Resepsionis |
-| Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
-| Precondition | Halaman login Resepsionis |
-| Basic Path | 1. Resepsionis melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
-| Alternative | Tidak ada |
-| Post Condition | Resepsionis berhasil login dan mengakses website Pengelolaan Edotel SMKN 1 Pekanbaru |
+| Post Condition | Admin berhasil login dan mengakses website Pengelolaan Edotel SMKN 1 Pekanbaru |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Resepsionis input data kamar**
+**3.2.2 Admin input data kamar**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Input data kamar |
-| Xref | Bagian 2.2.4, Input data kamar |
+| Xref | Bagian 2.2.2, Input data kamar |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
-| Precondition | Halaman utama Resepsionis |
-| Basic Path | 1. Resepsionis melakukan input data kamar dan lain-lain <br> 2. Resepsionis mengklik tombol simpan <br> 3. Sistem menyimpan data kamar <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Precondition | Halaman beranda |
+| Basic Path | 1. Admin melakukan input data kamar dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kamar <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data kamar |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.5 Resepsionis Input Data Check In**
+**3.2.3 Admin Input Data Check In**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Input data check in |
-| Xref | Bagian 2.2.5, Input data check in |
+| Xref | Bagian 2.2.3, Input data check in |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
 | Precondition | Halaman beranda |
-| Basic Path | 1. Resepsionis melakukan input data-data yang diperlukan untuk proses check in <br> 2. Resepsionis mengklik tombol simpan <br> 3. Sistem menyimpan data check in |
+| Basic Path | 1. Admin melakukan input data-data yang diperlukan untuk proses check in <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data check in |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data check in |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.6 Resepsionis Input Data Check Out**
+**3.2.4 Admin Input Data Check Out**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Input data check out |
-| Xref | Bagian 2.2.6, Input data check out |
+| Xref | Bagian 2.2.4, Input data check out |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
 | Precondition | Halaman beranda |
-| Basic Path | 1. Resepsionis melakukan input data-data yang diperlukan untuk proses check out <br> 2. Resepsionis mengklik tombol simpan <br> 3. Sistem menyimpan data check out |
+| Basic Path | 1. Admin melakukan input data-data yang diperlukan untuk proses check out <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data check out |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data check out |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.7 Resepsionis input data tamu**
+**3.2.5 Resepsionis input data tamu**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Input data tamu |
-| Xref | Bagian 2.2.7, Input data tamu |
+| Xref | Bagian 2.2.5, Input data tamu |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
-| Precondition | Halaman utama Resepsionis |
-| Basic Path | 1. Resepsionis melakukan input data tamu dan lain-lain <br> 2. Resepsionis mengklik tombol simpan <br> 3. Sistem menyimpan data tamu <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Precondition | Halaman beranda |
+| Basic Path | 1. Admin melakukan input data tamu dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data tamu <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data tamu |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.8 Generate Laporan**
+**3.2.6 Generate Laporan**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Laporan |
-| Xref | Bagian 2.2.8, Generate Laporan |
+| Xref | Bagian 2.2.6, Generate Laporan |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
-| Precondition | halaman beranda |
-| Basic Path | 1. Resepsionis mengklik tombol laporan <br> 2. Sistem menampilkan laporan transaksi <br> 3. Resepsionis memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. |
+| Precondition | Halaman beranda |
+| Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan transaksi <br> 3. Admin memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. |
 | Alternative | Tidak ada |
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
@@ -389,21 +326,13 @@ Struktur data logika pada website Pengelolaan Edotel SMKN 1 Pekanbaru terdapat s
 
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/erd%20hotel.png)
 
-**Tabel Resepsionis**
+**Tabel Admin**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_resepsionis| int | Nomer auto increment Id_resepsionis|
 | Username | varchar | berisikan username untuk akses resepsionis |
 | Password | varchar | berisikan password untuk login resepsionis |
-
-**Tabel Manager**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_manager| int | Nomer auto increment Id_manager|
-| Username | varchar | berisikan username untuk akses manager |
-| Password | varchar | berisikan password untuk login manager |
 
 **Tabel Kamar**
 
