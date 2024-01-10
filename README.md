@@ -31,7 +31,7 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada Website. Menjelask
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus proyek ini kami menganalisis kebutuhan suatu unit produksi sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pengelolaan unit produksi yaitu Edotel. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data Edotel. Sehingga memudahkan resepsionis dalam mengelola proses berjalannya Edotel. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat informasi pemesanan kamar, pencatatan check-in, proses check-out serta daftar pelanggan. Berikut akan kami jelaskan sistem software kami, admin Edotel fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus proyek ini kami menganalisis kebutuhan suatu unit produksi sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pengelolaan unit produksi yaitu Edotel. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data Edotel. Sehingga memudahkan admin dalam mengelola proses berjalannya Edotel. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat informasi pemesanan kamar, pencatatan check-in, proses check-out serta daftar pelanggan. Berikut akan kami jelaskan sistem software kami, admin Edotel fungsi utama yaitu :
 
    - Input Informasi Kamar 
    - Input Pencatatan Check-in
@@ -52,11 +52,11 @@ Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 1 user yaitu admin. Admin be
 
 **2.1.2 Antarmuka pengguna**
 
-   - **Mockup Resepsionis ( Website )**
+   - **Mockup ( Website )**
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Login(2).png) Pada halaman login user diminta untuk mengisi username dan password.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Dashboard.png) Pada halaman dashboard akan menampilkan kamar yang tersedia, terpakai serta yang kotor, dll.| 
+| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Login(2).png) Pada halaman login user diminta untuk mengisi username dan password.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Dashboard.png) Pada halaman dashboard akan menampilkan kamar yang tersedia, terpakai serta yang kotor, dan total pendapatan.| 
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Informasi%20kamar.png) Pada halaman informasi kamar terdapat tabel yang berisi segala informasi tentang kamar.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tambah%20data%20kamar%20(2).png) Pada halaman tambah data kamar dapat menginputkan data kamar baru| ![enter image description here]
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Check%20In.png) Pada halaman check in terdapat pilihan kamar yang tersedia.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tambah%20data%20tamu%20(3).png) Pada halaman ini terdapat form data tamu yang harus diisi jika ingin check in.|
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20check%20out.png) Pada halaman ini terdapat daftar kamar yang terpakai| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Check%20out%20(1).png) Pada halaman ini terdapat form data tamu yang harus diisi jika ingin check out.|
