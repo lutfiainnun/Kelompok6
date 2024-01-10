@@ -8,11 +8,11 @@
 ----------
 1.1 Tujuan
 ----------
-Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Pengelolaan Edotel SMKN 1 Pekanbaru". Dokumen ini dibangun untuk memudahkan pihak pengelola hotel untuk mengelola data pemesanan kamar oleh pelanggan, pencatatan check-in, proses check-out dan daftar kedatangan yang diharapkan yang ada pada unit produksi Edotel SMKN 1 Pekanbaru. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "Sistem Pengelolaan Edotel SMKN 1 Pekanbaru".
+Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Pengelolaan Edotel SMKN 1 Pekanbaru". Dokumen ini dibangun untuk memudahkan pihak pengelola hotel untuk mengelola data pemesanan kamar oleh pelanggan, pencatatan check-in, proses check-out dan daftar pelanggan pada unit produksi Edotel SMKN 1 Pekanbaru. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "Sistem Pengelolaan Edotel SMKN 1 Pekanbaru".
 
 1.2   Lingkup
 ----------
-Sistem Pengelolaan Edotel merupakan website yang kami bangun untuk mempermudah pengelola hotel dalam mengelola data pemesanan kamar oleh pelanggan, pencatatan check-in, proses check-out dan daftar kedatangan yang diharapkan sehingga proses pengeloaan hotel berjalan dengan efektif dan efisien.
+Sistem Pengelolaan Edotel merupakan website yang kami bangun untuk mempermudah pengelola hotel dalam mengelola data informasi kamar serta pemesanan kamar, pencatatan check-in, proses check-out dan daftar pelanggan sehingga proses pengeloaan hotel berjalan dengan efektif dan efisien.
 
 1.3    Akronim, Singkatan, Definisi
 ----------
@@ -31,7 +31,7 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada Website. Menjelask
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus proyek ini kami menganalisis kebutuhan suatu unit produksi sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pengelolaan unit produksi yaitu Edotel. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data Edotel. Sehingga memudahkan resepsionis dalam mengelola proses berjalannya Edotel. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat informasi pemesanan kamar, pencatatan check-in, proses check-out serta daftar kedatangan yang diharapkan. Berikut akan kami jelaskan sistem software kami, admin Edotel fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus proyek ini kami menganalisis kebutuhan suatu unit produksi sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pengelolaan unit produksi yaitu Edotel. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data Edotel. Sehingga memudahkan resepsionis dalam mengelola proses berjalannya Edotel. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat informasi pemesanan kamar, pencatatan check-in, proses check-out serta daftar pelanggan. Berikut akan kami jelaskan sistem software kami, admin Edotel fungsi utama yaitu :
 
    - Input Informasi Kamar 
    - Input Pencatatan Check-in
