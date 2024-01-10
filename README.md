@@ -56,10 +56,11 @@ Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 1 user yaitu admin. Admin be
 |  |  |
 |--|--|
 | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/login.jpeg) Pada halaman login user diminta untuk mengisi username dan password.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/beranda.jpeg) Pada halaman beranda akan menampilkan total kamar serta kamar yang tersedia, kotor, dan total pendapatan.| 
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/informasi%20kamar.jpeg) Pada halaman informasi kamar terdapat tabel yang berisi segala informasi tentang kamar. Serta admin dapat menambahkan data kamar dan dapat melakukan aksi edit dan hapus.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tambah%20data%20kamar%20(2).png) Pada halaman tambah data kamar dapat menginputkan data kamar baru| ![enter image description here]
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20Check%20In.png) Pada halaman check in terdapat pilihan kamar yang tersedia.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tambah%20data%20tamu%20(3).png) Pada halaman ini terdapat form data tamu yang harus diisi jika ingin check in.|
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Tampilan%20check%20out.png) Pada halaman ini terdapat daftar kamar yang terpakai| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Check%20out%20(1).png) Pada halaman ini terdapat form data tamu yang harus diisi jika ingin check out.|
-| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/Laporan%20transaksi(2).png) Pada halaman laporan dapat melihat total pendapatan||
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/informasi%20kamar.jpeg) Pada halaman informasi kamar terdapat tabel yang berisi segala informasi tentang kamar. Serta admin dapat menambahkan data kamar dan dapat melakukan aksi edit dan hapus.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/tambah%20data%20info%20kamar.jpeg) Pada halaman tambah data kamar dapat menginputkan data kamar baru. |
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/edit%20info%20kamar.jpeg) Pada halaman edit ini admin dapat menyunting data kamar. | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/checkin.jpeg) Pada halaman check-in terdapat data kamar yang telah dipesan oleh tamu/pelanggan.| 
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/tambah%20data%20checkin.jpeg) Pada halaman tambah data check-in terdapat form yang harus diisi jika ingin check in.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/edit%20data%20checkin.jpeg) Pada halaman edit ini admin dapat menyunting data check-in dan dapat melakukan proses check-out dengan mengubah status. |
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/laporan.jpeg) Pada halaman laporan dapat melihat total pendapatan. | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/pelanggan.jpeg) Pada halaman pelanggan terdapat data tamu/pelanggan yang ingin melakukan proses check-in.| 
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/tambah%20data%20pelanggan.jpeg) Pada halaman ini terdapat form data tamu yang harus diisi sebelum melakukan proses check-in.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/edit%20data%20checkin.jpeg) Pada halaman edit ini admin dapat menyunting data tamu/pelanggan.||
 
 **2.1.3 Antarmuka perangkat keras**
 
@@ -96,7 +97,6 @@ Tidak ada
 | Edit | Digunakan untuk mengubah data |
 | View | Digunakan untuk menampilkan data |
 | Simpan | Digunakan untuk menyimpan data |
-| Cetak | Digunakan untuk mencetak laporan |
 
 **2.1.8 Kebutuhan adaptasi**
 
@@ -121,11 +121,11 @@ Deskripsi Langkah-langkah
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.1, Login Resepsionis
+Xref: Bagian 3.2.1, Login 
 
-**2.2.2 Admin Input Data Kamar**
+**2.2.2 Admin Mengelola Data Kamar**
 
-Use Case: Input data kamar
+Use Case: Mengelola data kamar
 
 Diagram:
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20data%20kamar.png)
@@ -135,14 +135,14 @@ Admin melakukan input data kamar yang tersedia di Edotel dan sistem menyimpan da
 Deskripsi Langkah-langkah
 1. Admin melakukan input data kamar.
 2. Admin mengklik tombol simpan.
-3. Sistem menyimpan data barang.
-4. Bila data sudah ada sistem akan menampilkan peringatan
+3. Sistem menyimpan data kamar.
+4. Bila data sudah ada sistem akan menampilkan peringatan.
 
-Xref: Bagian 3.2.2, Input data kamar
+Xref: Bagian 3.2.2, Mengelola data kamar
 
-**2.2.3 Resepsionis Input Data Check In**
+**2.2.3 Admin Mengelola Data Check In**
 
-Use Case: Input data check in
+Use Case: Mengelola check in
 
 Diagram:
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20check%20in.png)
@@ -154,11 +154,11 @@ Deskripsi Langkah-langkah
 2. Admin mengklik tombol simpan.
 3. Sistem menyimpan data check in.
    
-Xref: Bagian 3.2.3, Input data check in
+Xref: Bagian 3.2.3, Mengelola check in
 
-**2.2.4 Admin Input Data Check Out**
+**2.2.4 Admin Mengelola Proses Check Out**
 
-Use Case: Input data check out
+Use Case: Mengelola check out
 
 Diagram:
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20check%20out.png)
@@ -166,15 +166,15 @@ Diagram:
 Deskripsi Singkat
 Admin melakukan input data check out untuk reservasi pelanggan dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Admin melakukan input data-data yang diperlukan untuk check out.
+1. Admin mengubah status yang terdapat pada halaman check in menjadi status check out.
 2. Admin mengklik tombol simpan.
 3. Sistem menyimpan data check out.
    
-Xref: Bagian 3.2.4, Input data check out
+Xref: Bagian 3.2.4, Mengelola check out
 
-**2.2.5 Admin Input Data Tamu**
+**2.2.5 Admin Mengelola Data Tamu**
 
-Use Case: Input data tamu
+Use Case: Mengelola data tamu
 
 Diagram:
 ![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20data%20tamu.png)
@@ -186,7 +186,7 @@ Deskripsi Langkah-langkah
 2. Admin mengklik tombol simpan.
 3. Sistem menyimpan data tamu.
 
-Xref: Bagian 3.2.5, Input data tamu
+Xref: Bagian 3.2.5, Mengelola data tamu
 
 **2.2.6 Generate Laporan**
 
@@ -253,12 +253,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Admin berhasil login dan mengakses website Pengelolaan Edotel SMKN 1 Pekanbaru |
 | Exception Push | Username dan password salah |
    
-**3.2.2 Admin input data kamar**
+**3.2.2 Admin mengelola data kamar**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input data kamar |
-| Xref | Bagian 2.2.2, Input data kamar |
+| Nama Fungsi | Mengelola data kamar |
+| Xref | Bagian 2.2.2, Mengelola data kamar |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
 | Precondition | Halaman beranda |
 | Basic Path | 1. Admin melakukan input data kamar dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kamar <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
@@ -266,12 +266,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data kamar |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.3 Admin Input Data Check In**
+**3.2.3 Admin Mengelola Data Check In**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input data check in |
-| Xref | Bagian 2.2.3, Input data check in |
+| Nama Fungsi | Mengelola data check in |
+| Xref | Bagian 2.2.3, Mengelola data check in |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
 | Precondition | Halaman beranda |
 | Basic Path | 1. Admin melakukan input data-data yang diperlukan untuk proses check in <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data check in |
@@ -279,25 +279,25 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data check in |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.4 Admin Input Data Check Out**
+**3.2.4 Admin Mengelola Proses Check Out**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input data check out |
-| Xref | Bagian 2.2.4, Input data check out |
+| Nama Fungsi | Mengelola data check out |
+| Xref | Bagian 2.2.4, Mengelola data check out |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
 | Precondition | Halaman beranda |
-| Basic Path | 1. Admin melakukan input data-data yang diperlukan untuk proses check out <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data check out |
+| Basic Path | 1. Admin mengubah status yang terdapat pada halaman check in menjadi status check out <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data check out |
 | Alternative | Tidak ada |
-| Post Condition | Halaman form input data check out |
+| Post Condition | Halaman form edit data check in |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.5 Resepsionis input data tamu**
+**3.2.5 Admin mengelola data tamu/pelanggan**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input data tamu |
-| Xref | Bagian 2.2.5, Input data tamu |
+| Nama Fungsi | Mengelola data tamu |
+| Xref | Bagian 2.2.5, Mengelola data tamu |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
 | Precondition | Halaman beranda |
 | Basic Path | 1. Admin melakukan input data tamu dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data tamu <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
@@ -316,7 +316,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan transaksi <br> 3. Admin memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. |
 | Alternative | Tidak ada |
 | Post Condition | Halaman Laporan |
-| Exception Push | Tidak ada koneksi, data belum diinput |
+| Exception Push | Tidak ada koneksi |
 
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
@@ -329,9 +329,9 @@ Struktur data logika pada website Pengelolaan Edotel SMKN 1 Pekanbaru terdapat s
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_resepsionis| int | Nomer auto increment Id_resepsionis|
-| Username | varchar | berisikan username untuk akses resepsionis |
-| Password | varchar | berisikan password untuk login resepsionis |
+| Id_admin| int | Nomer auto increment Id_admin|
+| Username | varchar | berisikan username untuk akses admin |
+| Password | varchar | berisikan password untuk login admin |
 
 **Tabel Kamar**
 
