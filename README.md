@@ -8,11 +8,11 @@
 ----------
 1.1 Tujuan
 ----------
-Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Pengelolaan Edotel SMKN 1 Pekanbaru". Dokumen ini dibangun untuk memudahkan pihak pengelola hotel untuk mengelola proses pemesanan kamar, check-in, check-out, daftar tamu/pelanggan, serta laporan/total pendapatan pada unit produksi Edotel SMKN 1 Pekanbaru. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "Sistem Pengelolaan Edotel SMKN 1 Pekanbaru".
+Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Pengelolaan Edotel SMKN 1 Pekanbaru". Dokumen ini dibangun untuk memudahkan pihak pengelola hotel untuk mengelola proses pemesanan kamar, check-in, check-out, daftar pelanggan, serta laporan/total pendapatan pada unit produksi Edotel SMKN 1 Pekanbaru. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak "Sistem Pengelolaan Edotel SMKN 1 Pekanbaru".
 
 1.2   Lingkup
 ----------
-Sistem Pengelolaan Edotel merupakan website yang kami bangun untuk mempermudah pengelola hotel dalam mengelola data informasi kamar serta pemesanan kamar, pencatatan check-in, proses check-out dan daftar tamu/pelanggan serta laporan/total pendapatan sehingga proses pengeloaan hotel berjalan dengan efektif dan efisien.
+Sistem Pengelolaan Edotel merupakan website yang kami bangun untuk mempermudah pengelola hotel dalam mengelola data informasi kamar serta pemesanan kamar, pencatatan check-in, proses check-out dan daftar pelanggan serta laporan/total pendapatan sehingga proses pengeloaan hotel berjalan dengan efektif dan efisien.
 
 1.3    Akronim, Singkatan, Definisi
 ----------
@@ -31,12 +31,12 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada Website. Menjelask
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus proyek ini kami menganalisis kebutuhan suatu unit produksi sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pengelolaan unit produksi yaitu Edotel. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data Edotel. Sehingga memudahkan admin dalam mengelola proses berjalannya Edotel. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat informasi pemesanan kamar, pencatatan check-in, proses check-out, daftar tamu/pelanggan dan laporan/total pendapatan. Berikut akan kami jelaskan sistem software kami, admin Edotel fungsi utama yaitu :
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari dalam studi kasus proyek ini kami menganalisis kebutuhan suatu unit produksi sekolah di daerah Pekanbaru yaitu SMKN 1 Pekanbaru. Kasus yang kami peroleh adalah pengelolaan unit produksi yaitu Edotel. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan sekolah SMKN 1 Pekanbaru dengan menerapkan manajemen data Edotel. Sehingga memudahkan admin dalam mengelola proses berjalannya Edotel. Software yang kami buat ini berbasis website. Sistem yang kami buat di dalamnya terdapat informasi pemesanan kamar, pencatatan check-in, proses check-out, daftar pelanggan dan laporan/total pendapatan. Berikut akan kami jelaskan sistem software kami, admin Edotel fungsi utama yaitu :
 
    - Input Informasi Kamar 
    - Input Pencatatan Check-in
    - Input Proses Check-out
-   - Input Data Tamu/Pelanggan
+   - Input Data Pelanggan
    - View Laporan Transaksi/Pendapatan
 
 2.1   Perspektif produk
@@ -45,7 +45,7 @@ Sistem Pengelolaan Edotel adalah sebuah sistem pengelolaan data yang di aplikasi
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/antarmuka%20sistem%201.png)
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/FIX-Antarmuka%20Sistem.png)
 
 Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 1 user yaitu admin. Admin bertugas untuk mengelola data dan melihat laporan.
 
@@ -57,10 +57,10 @@ Sistem Pengelolaan Edotel SMKN 1 Pekanbaru memiliki 1 user yaitu admin. Admin be
 |--|--|
 | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/login.jpeg) Pada halaman login user diminta untuk mengisi username dan password.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/beranda.jpeg) Pada halaman beranda akan menampilkan total kamar serta kamar yang tersedia, kotor, dan total pendapatan.| 
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/informasi%20kamar.jpeg) Pada halaman informasi kamar terdapat tabel yang berisi segala informasi tentang kamar. Serta admin dapat menambahkan data kamar dan dapat melakukan aksi edit dan hapus.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/tambah%20data%20info%20kamar.jpeg) Pada halaman tambah data kamar dapat menginputkan data kamar baru. |
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/edit%20info%20kamar.jpeg) Pada halaman edit ini admin dapat menyunting data kamar. | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/checkin.jpeg) Pada halaman check-in terdapat data kamar yang telah dipesan oleh tamu/pelanggan.| 
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/edit%20info%20kamar.jpeg) Pada halaman edit ini admin dapat menyunting data kamar. | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/checkin.jpeg) Pada halaman check-in terdapat data kamar yang telah dipesan oleh pelanggan.| 
 ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/tambah%20data%20checkin.jpeg) Pada halaman tambah data check-in terdapat form yang harus diisi jika ingin check in.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/edit%20data%20checkin.jpeg) Pada halaman edit ini admin dapat menyunting data check-in dan dapat melakukan proses check-out dengan mengubah status. |
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/laporan.jpeg) Pada halaman laporan dapat melihat total pendapatan. | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/pelanggan.jpeg) Pada halaman pelanggan terdapat data tamu/pelanggan yang ingin melakukan proses check-in.| 
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/tambah%20data%20pelanggan.jpeg) Pada halaman ini terdapat form data tamu yang harus diisi sebelum melakukan proses check-in.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/edit%20data%20checkin.jpeg) Pada halaman edit ini admin dapat menyunting data tamu/pelanggan.||
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/laporan.jpeg) Pada halaman laporan dapat melihat total pendapatan. | ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/pelanggan.jpeg) Pada halaman pelanggan terdapat data pelanggan yang ingin melakukan proses check-in.| 
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/tambah%20data%20pelanggan.jpeg) Pada halaman ini terdapat form data pelanggan yang harus diisi sebelum melakukan proses check-in.| ![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/edit%20data%20checkin.jpeg) Pada halaman edit ini admin dapat menyunting data pelanggan.||
 
 **2.1.3 Antarmuka perangkat keras**
 
@@ -104,7 +104,7 @@ Tidak ada
 
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/use%20case%20(1).png)
+![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/FIX-Use%20case.png)
 
 **2.2.1 Admin Login**
 
@@ -172,21 +172,22 @@ Deskripsi Langkah-langkah
    
 Xref: Bagian 3.2.4, Mengelola check out
 
-**2.2.5 Admin Mengelola Data Tamu**
+**2.2.5 Admin Mengelola Data Pelanggan**
 
-Use Case: Mengelola data tamu
+Use Case: Mengelola data pelanggan
 
 Diagram:
-![](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/admin%20data%20tamu.png)
+![](
+https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/FIX-ankusecase.png)
       
 Deskripsi Singkat
-Admin melakukan input data tamu yang akan menginap di Edotel dan sistem menyimpan data pada database.
+Admin melakukan input data pelanggan yang akan menginap di Edotel dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Admin melakukan input data tamu.
+1. Admin melakukan input data pelanggan.
 2. Admin mengklik tombol simpan.
-3. Sistem menyimpan data tamu.
+3. Sistem menyimpan data pelanggan.
 
-Xref: Bagian 3.2.5, Mengelola data tamu
+Xref: Bagian 3.2.5, Mengelola data pelanggan
 
 **2.2.6 Generate Laporan**
 
@@ -292,17 +293,17 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form edit data check in |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.5 Admin mengelola data tamu/pelanggan**
+**3.2.5 Admin Mengelola Data Pelanggan**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengelola data tamu |
-| Xref | Bagian 2.2.5, Mengelola data tamu |
+| Nama Fungsi | Mengelola data pelanggan |
+| Xref | Bagian 2.2.5, Mengelola data pelanggan |
 | Trigger | Membuka website Pengelolaan Edotel SMKN 1 Pekanbaru |
 | Precondition | Halaman beranda |
-| Basic Path | 1. Admin melakukan input data tamu dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data tamu <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Basic Path | 1. Admin melakukan input data tamu dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data pelanggan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Halaman form input data tamu |
+| Post Condition | Halaman form input data pelanggan |
 | Exception Push | Tidak ada koneksi |
 
 **3.2.6 Generate Laporan**
@@ -323,53 +324,53 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada website Pengelolaan Edotel SMKN 1 Pekanbaru terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/erd%20edotel.png)
+![enter image description here](https://github.com/lutfiainnun/Kelompok6/blob/main/Image%20SRS/FIX-ERD%20fix.png)
 
 **Tabel Admin**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_admin| int | Nomer auto increment Id_admin|
-| Username | varchar | berisikan username untuk akses admin |
+| admin_id| int | Nomer auto increment admin_id|
+| Email | varchar | berisikan email untuk akses admin |
 | Password | varchar | berisikan password untuk login admin |
 
 **Tabel Kamar**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_kamar | varchar | Nomer auto increment Id_kamar|
-| no_kamar | int | Nomor kamar|
-| Jumlah | int | Jumlah kamar yang tersedia|
+| kamar_Id | varchar | Nomer auto increment kamar_Id|
+| nomor_kamar |varchar| Nomor kamar|
 | status | varchar | status kamar|
 | tipe_kamar | varchar | tipe kamar yang tersedia di Edotel|
 | harga | varchar | harga kamar untuk menginap |
 
-**Tabel Reservasi**
+**Tabel Pemesanan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| tanggal_masuk | date | berisikan tanggal pelanggan melakukan check in |
-| tanggal_keluar | date | berisikan tanggal pelanggan melakukan check out |
+| pemesanan_Id | varchar | Nomer auto increment pemesanan_Id |
+| tanggal_pemesanan | date | berisikan tanggal pelanggan melakukan pemesanan kamar |
+| tanggal_checkin | date | berisikan tanggal pelanggan melakukan check in |
+| tanggal_checkout | date | berisikan tanggal pelanggan melakukan check out |
 
 **Tabel Pelanggan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_pelanggan| int | Nomer auto increment Id_pelanggan|
+| pelanggan_id | int | Nomer auto increment pelanggan_id |
 | nama | varchar | berisikan nama pelanggan |
 | no_hp | varchar | berisikan no hp pelanggan |
 | email | varchar | berisikan email pelanggan |
 | alamat | varchar | berisikan alamat pelanggan |
+| NIK | INT | berisikan NIK pelanggan |
 
-**Tabel Laporan**
+**Tabel Transaksi**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_laporan| int | Nomer auto increment Id_laporan|
-| tanggal_masuk | date | berisikan tanggal pelanggan melakukan check in |
-| tanggal_keluar | date | berisikan tanggal pelanggan melakukan check out |
-| transaksi | varchar | berisikan data transaksi kamar |
-| total | varchar | berisikan total biaya kamar |
+| transaksi_id | int | Nomer auto increment transaksi_id |
+| tanggal_transaksi | date | berisikan tanggal pelanggan melakukan transaksi |
+| jumlah_pembayaran | varchar | berisikan total biaya kamar |
 ----------
 
 **Job Desk**
